@@ -1,0 +1,51 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.header { @include card; margin-bottom: $gap; }
+.centered { display:flex; flex-direction:column; align-items:center; gap:$gap; }
+.title { @include title-primary; margin:0; }
+.badgesRow { display:flex; align-items:center; gap:$gap; flex-wrap:wrap; justify-content:center; }
+.badge { @include badge; }
+
+/* Direction */
+.long  { background: $long; }
+.short { background: $short; }
+
+/* Killzone */
+.kz { font-weight:700; }
+.kzAsie         { background: $kz-asie; color:#0b2a3a; }
+.kzLondres      { background: $kz-londres; color:#2b2b2b; }
+.kzNyAm         { background: $kz-ny-am; }
+.kzLondresClose { background: $kz-londres-close; }
+.kzNyPm         { background: $kz-ny-pm; }
+
+/* Durée (via key de durationInfo) */
+.dur { font-weight:700; }
+.dur_scalping { background: $dur-scalping; }
+.dur_intraday { background: $dur-intraday; }
+.dur_daytrade { background: $dur-daytrade; }
+.dur_swing    { background: $dur-swing; }
+
+/* Outcome */
+.outcome { font-weight:700; }
+.TP          { background: $success; }
+.SL          { background: $danger; }
+.SLengain    { background: $warning; color:#2b2b2b; }
+.BE          { background: $info; }
+
+/* € nets */
+.pnl     { font-weight:700; }
+.pnlPos  { background: $pnl-pos; }
+.pnlNeg  { background: $pnl-neg; }
+.pnlFlat { background: $pnl-flat; }
+
+.actions { display:flex; justify-content:center; }
+.save {
+//   @include btn-primary;
+  min-width: 180px;
+}
+.save:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+

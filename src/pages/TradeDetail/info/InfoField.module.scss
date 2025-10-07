@@ -1,0 +1,6 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.field { display: grid; gap: calc($gap / 3); }
+.label { @include label-small; }
+.value { @include field-box; }

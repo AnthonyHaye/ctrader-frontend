@@ -1,0 +1,66 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.page {
+  background: $brand-bg;
+  min-height: 100vh;
+  padding: $gap;
+  font-size: $font-base;
+  color: $text;
+}
+
+.topbar { margin-bottom: $gap; }
+
+.grid {
+  display: grid;
+  gap: $gap;
+  grid-template-columns: 1fr; // mobile
+}
+@media (min-width: 992px)   { .grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1280px)  { .grid { grid-template-columns: 1fr 1fr 1fr; } }
+
+.card { @include card; }
+
+.sectionTitle { @include title-primary; }
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $gap;
+}
+.kpi { @include stat-tile; }
+.kpiLabel { @include label-small; }
+.kpiValue { font-weight: 700; }
+
+.gridFields {
+  display: grid;
+  gap: calc($gap / 1.5);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.readonly { @include field-box; color: $text; }
+
+/* Tables compactes */
+.tableWrap { @include table-wrap(260px); }
+
+.table {
+  @include table-plain($padY: calc($gap / 2), $padX: $gap);
+  @include table-sticky-header;
+  thead th { background: $surface-muted; }
+}
+
+/* Badges */
+.badge { @include badge; }
+.long  { background: $long; }
+.short { background: $short; }
+
+/* Espaces plus serrés entre cartes */
+.compact { padding: $card-pad; }
+
+/* Utilitaires de span */
+.span1 { grid-column: span 1; }
+.span2 { grid-column: span 2; }
+.full  { grid-column: 1 / -1; }
+
+/* Scroll interne */
+.scroll { max-height: 260px; overflow: auto; }

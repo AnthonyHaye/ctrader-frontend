@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* src/styles/_mixins.scss */
+/* Carte de base (fond, radius, ombre, padding) */
+/* Titre principal coloré (h2/h3) */
+/* Grille responsive auto-fit */
+/* Label discret (12px + texte atténué) */
+/* Boîte de champ en lecture seule / info (fond clair + bordure + radius + padding) */
+/* Contrôle de formulaire standard (input/textarea) */
+/* Bouton plein (couleur de fond paramétrable) */
+/* Badge pilule (fond optionnel défini ailleurs) */
+/* Tuile KPI/Stat (fond clair + bordure + radius + padding) */
+/* Conteneur table scrollable (compact) */
+/* Table basique (padding + bordures) */
+/* En-tête sticky (à appliquer dans .table) */
+/* Lignes alternées (tbody) */
+.page {
+  background: #f6f7fb;
+  min-height: 100vh;
+  padding: 12px;
+  font-size: 15px;
+  color: #2f3237;
+}
+
+.topbar {
+  margin-bottom: 12px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 14px;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 6px;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.kpi {
+  background: #fafafb;
+  border: 1px solid #eef0f4;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.kpiLabel {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.kpiValue {
+  font-weight: 700;
+}
+
+.gridFields {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.readonly {
+  background: #fafafb;
+  border: 1px solid #eef0f4;
+  border-radius: 12px;
+  padding: 6px 12px;
+  color: #2f3237;
+}
+
+/* Tables compactes */
+.tableWrap {
+  max-height: 260px;
+  overflow: auto;
+  border: 1px solid #eef0f4;
+  border-radius: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid #eef0f4;
+  text-align: left;
+}
+.table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.table thead th {
+  background: #fafafb;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 3px 9.6px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.long {
+  background: #4caf50;
+}
+
+.short {
+  background: #f44336;
+}
+
+/* Espaces plus serrés entre cartes */
+.compact {
+  padding: 14px;
+}
+
+/* Utilitaires de span */
+.span1 {
+  grid-column: span 1;
+}
+
+.span2 {
+  grid-column: span 2;
+}
+
+.full {
+  grid-column: 1/-1;
+}
+
+/* Scroll interne */
+.scroll {
+  max-height: 260px;
+  overflow: auto;
+}/*# sourceMappingURL=TradeDetail.module.css.map */

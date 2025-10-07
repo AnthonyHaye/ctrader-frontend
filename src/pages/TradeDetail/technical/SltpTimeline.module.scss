@@ -1,0 +1,12 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.card  { @include card; }
+.title { @include title-primary; }
+.empty { color: $text-muted; }
+
+.table {
+  @include table-plain($padY: $gap, $padX: $card-pad);
+  @include table-alt-rows;
+  thead th { background: lighten($surface-muted, 2%); }
+}

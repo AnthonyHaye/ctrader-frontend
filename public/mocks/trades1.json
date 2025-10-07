@@ -1,0 +1,35 @@
+[
+  {
+  "id": "T-2025-0001",
+  "symbol": "EURUSD",
+  "direction": "LONG",
+  "openTime": "2025-09-30T08:45:00Z",
+  "closeTime": "2025-09-30T09:10:00Z",
+
+  "technical": { "orderType": "Market", "entryPrice": 1.0905, "positionSize": 10000 },
+
+  "sltpEvents": [
+    { "time": "2025-09-30T08:45:00Z", "sl": 1.0890, "tp": 1.0935, "source": "auto:entry" },
+    { "time": "2025-09-30T08:58:00Z", "sl": 1.0898, "tp": 1.0935, "source": "manual:adjust" }
+  ],
+
+  "addIns": [
+    {
+      "id": "A1",
+      "time": "2025-09-30T08:55:00Z",
+      "entryPrice": 1.0912,
+      "positionSize": 5000,
+      "sl": 1.0898,
+      "tp": 1.0938,
+      "sltpEvents": [
+        { "time": "2025-09-30T08:55:00Z", "sl": 1.0898, "tp": 1.0938, "source": "auto:entry" },
+        { "time": "2025-09-30T09:02:00Z", "sl": 1.0902, "tp": 1.0938, "source": "manual:adjust" }
+      ]
+    }
+  ],
+
+  "netEur": 15.0
+}
+
+
+]

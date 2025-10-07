@@ -1,0 +1,55 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.card  { @include card; }
+.title { @include title-primary; margin-bottom: 8px; }
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.field  { display:grid; gap:6px; }
+.label  { @include label-small; }
+.control {}
+
+.readonly {
+  background: $surface-muted;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+.input {
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 8px 10px;
+  font: inherit;
+  background: #fff;
+}
+
+.block { margin-top: 12px; }
+.blockTitle { @include label-small; margin-bottom: 6px; color: $text-muted; }
+
+.checkboxGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 8px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: $surface-muted;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+.actions { margin-top: 10px; display:flex; justify-content:flex-end; }
+
+.aplusToggle {
+  display:flex; align-items:center; gap:8px;
+  font-weight:600; margin-bottom:6px;
+}

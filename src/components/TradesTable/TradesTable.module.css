@@ -1,0 +1,92 @@
+.rowBadges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.long {
+  background: #4caf50;
+}
+
+.short {
+  background: #f44336;
+}
+
+.kzAsie {
+  background: #ffd54f;
+  color: #0b2a3a;
+}
+
+.kzLondres {
+  background: #ff8a65;
+  color: #2b2b2b;
+}
+
+.kzNyAm {
+  background: #6fc2ff;
+}
+
+.kzLondresClose {
+  background: #a1887f;
+}
+
+.kzNyPm {
+  background: #81c784;
+}
+
+.dur_scalping {
+  background: #9c27b0;
+}
+
+.dur_intraday {
+  background: #4dabf7;
+}
+
+.dur_daytrade {
+  background: #ffb74d;
+}
+
+.dur_swing {
+  background: #ff9800;
+}
+
+.TP {
+  background: #2e7d32;
+}
+
+.SL {
+  background: #e53935;
+}
+
+.SLengain {
+  background: #ffb300;
+  color: #2b2b2b;
+}
+
+.BE {
+  background: #0288d1;
+}
+
+.pnlPos {
+  background: #2e7d32;
+}
+
+.pnlNeg {
+  background: #e53935;
+}
+
+.pnlFlat {
+  background: #607d8b;
+  color: #fff;
+}/*# sourceMappingURL=TradesTable.module.css.map */

@@ -1,0 +1,5185 @@
+[
+  {
+    "id": "T-2025-0001",
+    "symbol": "GER40",
+    "direction": "LONG",
+    "openTime": "2025-07-24T17:43:46Z",
+    "closeTime": "2025-07-24T19:51:46Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 18099.2,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-24T17:43:46Z",
+        "sl": 17999.2,
+        "tp": 18299.2,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 2379.94
+  },
+  {
+    "id": "T-2025-0002",
+    "symbol": "US500",
+    "direction": "LONG",
+    "openTime": "2025-09-15T03:36:40Z",
+    "closeTime": "2025-09-15T07:13:40Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 5170.9,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-15T03:36:40Z",
+        "sl": 5070.9,
+        "tp": 5370.9,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-15T05:07:40Z",
+        "sl": 5080.9,
+        "tp": 5380.9,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-15T03:43:40Z",
+        "entryPrice": 5162.5,
+        "positionSize": 358,
+        "sl": 5062.5,
+        "tp": 5362.5,
+        "sltpEvents": [
+          {
+            "time": "2025-09-15T03:43:40Z",
+            "sl": 5062.5,
+            "tp": 5362.5,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-15T05:02:40Z",
+            "sl": 5072.5,
+            "tp": 5352.5,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-09-15T04:53:40Z",
+            "sl": 5062.5,
+            "tp": 5362.5,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-09-15T04:12:40Z",
+        "entryPrice": 5166.6,
+        "positionSize": 677,
+        "sl": 5066.6,
+        "tp": 5366.6,
+        "sltpEvents": [
+          {
+            "time": "2025-09-15T04:12:40Z",
+            "sl": 5066.6,
+            "tp": 5366.6,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-15T05:27:40Z",
+            "sl": 5056.6,
+            "tp": 5356.6,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-15T05:38:40Z",
+            "sl": 5046.6,
+            "tp": 5366.6,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 7.38
+  },
+  {
+    "id": "T-2025-0003",
+    "symbol": "EURGBP",
+    "direction": "LONG",
+    "openTime": "2025-08-09T07:40:53Z",
+    "closeTime": "2025-08-09T09:30:53Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 0.86146,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-09T07:40:53Z",
+        "sl": 0.85846,
+        "tp": 0.86746,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-09T08:50:53Z",
+        "sl": 0.85796,
+        "tp": 0.86696,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-09T08:25:53Z",
+        "entryPrice": 0.86161,
+        "positionSize": 1421,
+        "sl": 0.85861,
+        "tp": 0.86761,
+        "sltpEvents": [
+          {
+            "time": "2025-08-09T08:25:53Z",
+            "sl": 0.85861,
+            "tp": 0.86761,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-09T07:55:53Z",
+        "entryPrice": 0.86229,
+        "positionSize": 1566,
+        "sl": 0.85929,
+        "tp": 0.86829,
+        "sltpEvents": [
+          {
+            "time": "2025-08-09T07:55:53Z",
+            "sl": 0.85929,
+            "tp": 0.86829,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-09T08:31:53Z",
+            "sl": 0.85879,
+            "tp": 0.86779,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-08-09T08:24:53Z",
+            "sl": 0.85929,
+            "tp": 0.86829,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-08-09T08:15:53Z",
+            "sl": 0.85979,
+            "tp": 0.86779,
+            "source": "manual:adjust"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-08-09T08:28:53Z",
+        "entryPrice": 0.86162,
+        "positionSize": 915,
+        "sl": 0.85862,
+        "tp": 0.86762,
+        "sltpEvents": [
+          {
+            "time": "2025-08-09T08:28:53Z",
+            "sl": 0.85862,
+            "tp": 0.86762,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-09T10:24:53Z",
+            "sl": 0.85912,
+            "tp": 0.86812,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-08-09T08:47:53Z",
+            "sl": 0.85962,
+            "tp": 0.86762,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-09T10:20:53Z",
+            "sl": 0.85912,
+            "tp": 0.86712,
+            "source": "manual:adjust"
+          }
+        ]
+      }
+    ],
+    "netEur": -0.68
+  },
+  {
+    "id": "T-2025-0004",
+    "symbol": "NAS100",
+    "direction": "SHORT",
+    "openTime": "2025-06-03T13:30:19Z",
+    "closeTime": "2025-06-03T19:21:19Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 19083.9,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-03T13:30:19Z",
+        "sl": 18983.9,
+        "tp": 19283.9,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-03T15:10:19Z",
+        "sl": 18993.9,
+        "tp": 19273.9,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-06-03T14:27:19Z",
+        "sl": 18983.9,
+        "tp": 19283.9,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 8949.78
+  },
+  {
+    "id": "T-2025-0005",
+    "symbol": "GBPUSD",
+    "direction": "SHORT",
+    "openTime": "2025-09-07T21:52:49Z",
+    "closeTime": "2025-09-08T03:06:49Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 1.27615,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-07T21:52:49Z",
+        "sl": 1.27315,
+        "tp": 1.28215,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -6.34
+  },
+  {
+    "id": "T-2025-0006",
+    "symbol": "UK100",
+    "direction": "SHORT",
+    "openTime": "2025-06-12T13:57:03Z",
+    "closeTime": "2025-06-12T16:03:03Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 8362.7,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-12T13:57:03Z",
+        "sl": 8262.7,
+        "tp": 8562.7,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-12T15:43:03Z",
+        "sl": 8252.7,
+        "tp": 8552.7,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-06-12T15:23:03Z",
+        "sl": 8262.7,
+        "tp": 8542.7,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-06-12T15:06:03Z",
+        "sl": 8272.7,
+        "tp": 8532.7,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": 104.1
+  },
+  {
+    "id": "T-2025-0007",
+    "symbol": "NAS100",
+    "direction": "LONG",
+    "openTime": "2025-07-14T23:09:55Z",
+    "closeTime": "2025-07-14T23:44:55Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 18938.5,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-14T23:09:55Z",
+        "sl": 18838.5,
+        "tp": 19138.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-14T23:11:55Z",
+        "sl": 18828.5,
+        "tp": 19128.5,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-15T00:05:55Z",
+        "entryPrice": 18925.7,
+        "positionSize": 6084,
+        "sl": 18825.7,
+        "tp": 19125.7,
+        "sltpEvents": [
+          {
+            "time": "2025-07-15T00:05:55Z",
+            "sl": 18825.7,
+            "tp": 19125.7,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-15T01:32:55Z",
+            "sl": 18835.7,
+            "tp": 19115.7,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-07-15T01:39:55Z",
+            "sl": 18845.7,
+            "tp": 19105.7,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -403.05
+  },
+  {
+    "id": "T-2025-0008",
+    "symbol": "XAUUSD",
+    "direction": "SHORT",
+    "openTime": "2025-06-11T20:27:21Z",
+    "closeTime": "2025-06-12T02:14:21Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 2407.37,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-11T20:27:21Z",
+        "sl": 2382.37,
+        "tp": 2457.37,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-11T22:02:21Z",
+        "sl": 2384.37,
+        "tp": 2455.37,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-06-11T20:53:21Z",
+        "sl": 2382.37,
+        "tp": 2457.37,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-06-11T21:23:21Z",
+        "sl": 2380.37,
+        "tp": 2459.37,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-11T20:56:21Z",
+        "entryPrice": 2410.34,
+        "positionSize": 813,
+        "sl": 2385.34,
+        "tp": 2460.34,
+        "sltpEvents": [
+          {
+            "time": "2025-06-11T20:56:21Z",
+            "sl": 2385.34,
+            "tp": 2460.34,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 40.09
+  },
+  {
+    "id": "T-2025-0009",
+    "symbol": "UK100",
+    "direction": "LONG",
+    "openTime": "2025-08-19T06:01:36Z",
+    "closeTime": "2025-08-19T10:12:36Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 8296.9,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-19T06:01:36Z",
+        "sl": 8196.9,
+        "tp": 8496.9,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-19T06:51:36Z",
+        "sl": 8186.9,
+        "tp": 8506.9,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": 70.09
+  },
+  {
+    "id": "T-2025-0010",
+    "symbol": "UK100",
+    "direction": "SHORT",
+    "openTime": "2025-07-08T04:59:17Z",
+    "closeTime": "2025-07-08T07:33:17Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 8253.1,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-08T04:59:17Z",
+        "sl": 8153.1,
+        "tp": 8453.1,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -2253.12
+  },
+  {
+    "id": "T-2025-0011",
+    "symbol": "USDJPY",
+    "direction": "LONG",
+    "openTime": "2025-06-16T21:20:47Z",
+    "closeTime": "2025-06-17T04:38:47Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 149.52874,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-16T21:20:47Z",
+        "sl": 149.52574,
+        "tp": 149.53474,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-16T21:37:47Z",
+        "sl": 149.52524,
+        "tp": 149.53424,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-16T22:15:47Z",
+        "sl": 149.52574,
+        "tp": 149.53474,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-06-16T22:47:47Z",
+        "sl": 149.52624,
+        "tp": 149.53424,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": 932.94
+  },
+  {
+    "id": "T-2025-0012",
+    "symbol": "UK100",
+    "direction": "LONG",
+    "openTime": "2025-09-17T00:38:02Z",
+    "closeTime": "2025-09-17T03:14:02Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 8371.7,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-17T00:38:02Z",
+        "sl": 8271.7,
+        "tp": 8571.7,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-17T00:54:02Z",
+        "sl": 8261.7,
+        "tp": 8561.7,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-09-17T01:16:02Z",
+        "sl": 8251.7,
+        "tp": 8571.7,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": -421.59
+  },
+  {
+    "id": "T-2025-0013",
+    "symbol": "EURUSD",
+    "direction": "LONG",
+    "openTime": "2025-08-22T14:00:22Z",
+    "closeTime": "2025-08-22T21:07:22Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 1.08757,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-22T14:00:22Z",
+        "sl": 1.08457,
+        "tp": 1.09357,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-22T14:22:22Z",
+        "sl": 1.08507,
+        "tp": 1.09407,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-22T14:16:22Z",
+        "sl": 1.08457,
+        "tp": 1.09357,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -20.82
+  },
+  {
+    "id": "T-2025-0014",
+    "symbol": "UK100",
+    "direction": "LONG",
+    "openTime": "2025-07-12T03:01:39Z",
+    "closeTime": "2025-07-12T08:53:39Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 8258.4,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-12T03:01:39Z",
+        "sl": 8158.4,
+        "tp": 8458.4,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-12T04:22:39Z",
+        "sl": 8148.4,
+        "tp": 8448.4,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-07-12T04:45:39Z",
+        "sl": 8138.4,
+        "tp": 8458.4,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-12T03:25:39Z",
+        "sl": 8148.4,
+        "tp": 8468.4,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-12T03:08:39Z",
+        "entryPrice": 8254.5,
+        "positionSize": 32323,
+        "sl": 8154.5,
+        "tp": 8454.5,
+        "sltpEvents": [
+          {
+            "time": "2025-07-12T03:08:39Z",
+            "sl": 8154.5,
+            "tp": 8454.5,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-12T03:38:39Z",
+            "sl": 8144.5,
+            "tp": 8464.5,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-07-12T03:49:39Z",
+            "sl": 8134.5,
+            "tp": 8454.5,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-12T04:34:39Z",
+            "sl": 8124.5,
+            "tp": 8464.5,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-12T03:19:39Z",
+        "entryPrice": 8270.4,
+        "positionSize": 88013,
+        "sl": 8170.4,
+        "tp": 8470.4,
+        "sltpEvents": [
+          {
+            "time": "2025-07-12T03:19:39Z",
+            "sl": 8170.4,
+            "tp": 8470.4,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-12T04:05:39Z",
+            "sl": 8180.4,
+            "tp": 8480.4,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-12T03:35:39Z",
+            "sl": 8190.4,
+            "tp": 8470.4,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-07-12T03:04:39Z",
+        "entryPrice": 8245.5,
+        "positionSize": 56073,
+        "sl": 8145.5,
+        "tp": 8445.5,
+        "sltpEvents": [
+          {
+            "time": "2025-07-12T03:04:39Z",
+            "sl": 8145.5,
+            "tp": 8445.5,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-12T04:01:39Z",
+            "sl": 8135.5,
+            "tp": 8455.5,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-07-12T03:38:39Z",
+            "sl": 8125.5,
+            "tp": 8465.5,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -5669.81
+  },
+  {
+    "id": "T-2025-0015",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-08-24T01:59:29Z",
+    "closeTime": "2025-08-24T02:37:29Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 7668.2,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-24T01:59:29Z",
+        "sl": 7568.2,
+        "tp": 7868.2,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 1160.2
+  },
+  {
+    "id": "T-2025-0016",
+    "symbol": "USDCAD",
+    "direction": "LONG",
+    "openTime": "2025-08-21T23:25:18Z",
+    "closeTime": "2025-08-22T05:08:18Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.37603,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-21T23:25:18Z",
+        "sl": 1.37303,
+        "tp": 1.38203,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-22T00:18:18Z",
+        "sl": 1.37253,
+        "tp": 1.38253,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-08-21T23:53:18Z",
+        "sl": 1.37303,
+        "tp": 1.38303,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-21T23:39:18Z",
+        "entryPrice": 1.37608,
+        "positionSize": 3881,
+        "sl": 1.37308,
+        "tp": 1.38208,
+        "sltpEvents": [
+          {
+            "time": "2025-08-21T23:39:18Z",
+            "sl": 1.37308,
+            "tp": 1.38208,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-22T01:05:18Z",
+            "sl": 1.37258,
+            "tp": 1.38258,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-21T23:31:18Z",
+        "entryPrice": 1.37734,
+        "positionSize": 3753,
+        "sl": 1.37434,
+        "tp": 1.38334,
+        "sltpEvents": [
+          {
+            "time": "2025-08-21T23:31:18Z",
+            "sl": 1.37434,
+            "tp": 1.38334,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-22T00:01:18Z",
+            "sl": 1.37384,
+            "tp": 1.38284,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-21T23:38:18Z",
+            "sl": 1.37334,
+            "tp": 1.38334,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-08-21T23:55:18Z",
+        "entryPrice": 1.37568,
+        "positionSize": 3389,
+        "sl": 1.37268,
+        "tp": 1.38168,
+        "sltpEvents": [
+          {
+            "time": "2025-08-21T23:55:18Z",
+            "sl": 1.37268,
+            "tp": 1.38168,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-22T01:28:18Z",
+            "sl": 1.37318,
+            "tp": 1.38218,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -4.6
+  },
+  {
+    "id": "T-2025-0017",
+    "symbol": "UK100",
+    "direction": "LONG",
+    "openTime": "2025-07-13T19:52:25Z",
+    "closeTime": "2025-07-13T21:25:25Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 8350.5,
+      "positionSize": 75000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-13T19:52:25Z",
+        "sl": 8250.5,
+        "tp": 8550.5,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 3293.14
+  },
+  {
+    "id": "T-2025-0018",
+    "symbol": "US500",
+    "direction": "SHORT",
+    "openTime": "2025-09-28T07:10:00Z",
+    "closeTime": "2025-09-28T14:10:00Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 5222.8,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-28T07:10:00Z",
+        "sl": 5122.8,
+        "tp": 5422.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-28T09:06:00Z",
+        "sl": 5112.8,
+        "tp": 5432.8,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-28T07:45:00Z",
+        "sl": 5102.8,
+        "tp": 5442.8,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-28T08:32:00Z",
+        "sl": 5092.8,
+        "tp": 5452.8,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 33.74
+  },
+  {
+    "id": "T-2025-0019",
+    "symbol": "XAUUSD",
+    "direction": "SHORT",
+    "openTime": "2025-06-05T03:01:31Z",
+    "closeTime": "2025-06-05T10:22:31Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 2418.27,
+      "positionSize": 75000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-05T03:01:31Z",
+        "sl": 2393.27,
+        "tp": 2468.27,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 2300.8
+  },
+  {
+    "id": "T-2025-0020",
+    "symbol": "US500",
+    "direction": "LONG",
+    "openTime": "2025-07-13T22:34:44Z",
+    "closeTime": "2025-07-14T00:56:44Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 5193.3,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-13T22:34:44Z",
+        "sl": 5093.3,
+        "tp": 5393.3,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-14T00:08:44Z",
+        "sl": 5083.3,
+        "tp": 5403.3,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-07-13T23:55:44Z",
+        "sl": 5073.3,
+        "tp": 5413.3,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-13T22:46:44Z",
+        "sl": 5083.3,
+        "tp": 5403.3,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-13T22:59:44Z",
+        "entryPrice": 5189.7,
+        "positionSize": 17184,
+        "sl": 5089.7,
+        "tp": 5389.7,
+        "sltpEvents": [
+          {
+            "time": "2025-07-13T22:59:44Z",
+            "sl": 5089.7,
+            "tp": 5389.7,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-14T00:38:44Z",
+            "sl": 5099.7,
+            "tp": 5399.7,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-07-13T23:33:44Z",
+            "sl": 5089.7,
+            "tp": 5409.7,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-13T23:22:44Z",
+        "entryPrice": 5194.1,
+        "positionSize": 26998,
+        "sl": 5094.1,
+        "tp": 5394.1,
+        "sltpEvents": [
+          {
+            "time": "2025-07-13T23:22:44Z",
+            "sl": 5094.1,
+            "tp": 5394.1,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-13T23:52:44Z",
+            "sl": 5084.1,
+            "tp": 5384.1,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-13T23:55:44Z",
+            "sl": 5074.1,
+            "tp": 5374.1,
+            "source": "manual:adjust"
+          }
+        ]
+      }
+    ],
+    "netEur": -774.65
+  },
+  {
+    "id": "T-2025-0021",
+    "symbol": "NAS100",
+    "direction": "SHORT",
+    "openTime": "2025-07-03T21:57:14Z",
+    "closeTime": "2025-07-04T03:10:14Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 19040.8,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-03T21:57:14Z",
+        "sl": 18940.8,
+        "tp": 19240.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-03T22:38:14Z",
+        "sl": 18930.8,
+        "tp": 19230.8,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": 249.2
+  },
+  {
+    "id": "T-2025-0022",
+    "symbol": "US30",
+    "direction": "LONG",
+    "openTime": "2025-07-29T21:28:37Z",
+    "closeTime": "2025-07-30T04:46:37Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 39143.7,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-29T21:28:37Z",
+        "sl": 39043.7,
+        "tp": 39343.7,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-29T22:38:37Z",
+        "sl": 39053.7,
+        "tp": 39353.7,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-29T22:34:37Z",
+        "sl": 39063.7,
+        "tp": 39343.7,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 82.89
+  },
+  {
+    "id": "T-2025-0023",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-07-05T12:51:27Z",
+    "closeTime": "2025-07-05T19:09:27Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 7603.3,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-05T12:51:27Z",
+        "sl": 7503.3,
+        "tp": 7803.3,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-05T13:52:27Z",
+        "sl": 7513.3,
+        "tp": 7813.3,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-07-05T14:42:27Z",
+        "sl": 7503.3,
+        "tp": 7803.3,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-07-05T14:45:27Z",
+        "sl": 7513.3,
+        "tp": 7793.3,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 2385.84
+  },
+  {
+    "id": "T-2025-0024",
+    "symbol": "NAS100",
+    "direction": "LONG",
+    "openTime": "2025-07-21T12:00:34Z",
+    "closeTime": "2025-07-21T14:57:34Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 18916.3,
+      "positionSize": 20000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-21T12:00:34Z",
+        "sl": 18816.3,
+        "tp": 19116.3,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-21T12:06:34Z",
+        "entryPrice": 18896.7,
+        "positionSize": 10877,
+        "sl": 18796.7,
+        "tp": 19096.7,
+        "sltpEvents": [
+          {
+            "time": "2025-07-21T12:06:34Z",
+            "sl": 18796.7,
+            "tp": 19096.7,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-21T13:36:34Z",
+            "sl": 18806.7,
+            "tp": 19106.7,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": 867.36
+  },
+  {
+    "id": "T-2025-0025",
+    "symbol": "USDCAD",
+    "direction": "SHORT",
+    "openTime": "2025-09-16T19:22:15Z",
+    "closeTime": "2025-09-16T23:56:15Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.36786,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-16T19:22:15Z",
+        "sl": 1.36486,
+        "tp": 1.37386,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-16T20:09:15Z",
+        "sl": 1.36536,
+        "tp": 1.37436,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-09-16T19:56:15Z",
+        "sl": 1.36486,
+        "tp": 1.37386,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-16T19:57:15Z",
+        "entryPrice": 1.36971,
+        "positionSize": 71409,
+        "sl": 1.36671,
+        "tp": 1.37571,
+        "sltpEvents": [
+          {
+            "time": "2025-09-16T19:57:15Z",
+            "sl": 1.36671,
+            "tp": 1.37571,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-16T20:26:15Z",
+            "sl": 1.36721,
+            "tp": 1.37621,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-09-16T19:29:15Z",
+        "entryPrice": 1.36922,
+        "positionSize": 47774,
+        "sl": 1.36622,
+        "tp": 1.37522,
+        "sltpEvents": [
+          {
+            "time": "2025-09-16T19:29:15Z",
+            "sl": 1.36622,
+            "tp": 1.37522,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-16T19:53:15Z",
+            "sl": 1.36672,
+            "tp": 1.37472,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-09-16T20:06:15Z",
+            "sl": 1.36622,
+            "tp": 1.37422,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-09-16T20:07:15Z",
+        "entryPrice": 1.36968,
+        "positionSize": 68272,
+        "sl": 1.36668,
+        "tp": 1.37568,
+        "sltpEvents": [
+          {
+            "time": "2025-09-16T20:07:15Z",
+            "sl": 1.36668,
+            "tp": 1.37568,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-16T20:22:15Z",
+            "sl": 1.36618,
+            "tp": 1.37618,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-09-16T21:10:15Z",
+            "sl": 1.36668,
+            "tp": 1.37668,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-09-16T20:15:15Z",
+            "sl": 1.36718,
+            "tp": 1.37718,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -549.66
+  },
+  {
+    "id": "T-2025-0026",
+    "symbol": "EURUSD",
+    "direction": "LONG",
+    "openTime": "2025-09-18T15:01:21Z",
+    "closeTime": "2025-09-18T17:39:21Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.08548,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-18T15:01:21Z",
+        "sl": 1.08248,
+        "tp": 1.09148,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-18T16:20:21Z",
+        "sl": 1.08198,
+        "tp": 1.09198,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-18T16:59:21Z",
+        "sl": 1.08248,
+        "tp": 1.09248,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-18T15:42:21Z",
+        "sl": 1.08198,
+        "tp": 1.09198,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": -178.95
+  },
+  {
+    "id": "T-2025-0027",
+    "symbol": "USDJPY",
+    "direction": "LONG",
+    "openTime": "2025-08-27T19:29:57Z",
+    "closeTime": "2025-08-28T01:24:57Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 150.14072,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-27T19:29:57Z",
+        "sl": 150.13772,
+        "tp": 150.14672,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-27T21:01:57Z",
+        "sl": 150.13822,
+        "tp": 150.14722,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-27T20:58:57Z",
+        "sl": 150.13772,
+        "tp": 150.14772,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-27T19:44:57Z",
+        "entryPrice": 150.20722,
+        "positionSize": 8450,
+        "sl": 150.20422,
+        "tp": 150.21322,
+        "sltpEvents": [
+          {
+            "time": "2025-08-27T19:44:57Z",
+            "sl": 150.20422,
+            "tp": 150.21322,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-27T19:55:57Z",
+            "sl": 150.20372,
+            "tp": 150.21272,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-27T20:08:57Z",
+        "entryPrice": 150.25286,
+        "positionSize": 6415,
+        "sl": 150.24986,
+        "tp": 150.25886,
+        "sltpEvents": [
+          {
+            "time": "2025-08-27T20:08:57Z",
+            "sl": 150.24986,
+            "tp": 150.25886,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-27T21:06:57Z",
+            "sl": 150.24936,
+            "tp": 150.25936,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-08-27T21:39:57Z",
+            "sl": 150.24986,
+            "tp": 150.25986,
+            "source": "auto:breakeven"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-08-27T19:58:57Z",
+        "entryPrice": 149.95174,
+        "positionSize": 3239,
+        "sl": 149.94874,
+        "tp": 149.95774,
+        "sltpEvents": [
+          {
+            "time": "2025-08-27T19:58:57Z",
+            "sl": 149.94874,
+            "tp": 149.95774,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-27T21:34:57Z",
+            "sl": 149.94924,
+            "tp": 149.95824,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-27T20:11:57Z",
+            "sl": 149.94874,
+            "tp": 149.95774,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-08-27T21:13:57Z",
+            "sl": 149.94824,
+            "tp": 149.95724,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -2275.81
+  },
+  {
+    "id": "T-2025-0028",
+    "symbol": "XAUUSD",
+    "direction": "SHORT",
+    "openTime": "2025-08-31T14:24:25Z",
+    "closeTime": "2025-08-31T17:25:25Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 2395.6,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-31T14:24:25Z",
+        "sl": 2370.6,
+        "tp": 2445.6,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-31T15:08:25Z",
+        "sl": 2372.6,
+        "tp": 2447.6,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": 161.55
+  },
+  {
+    "id": "T-2025-0029",
+    "symbol": "USDCAD",
+    "direction": "SHORT",
+    "openTime": "2025-08-18T19:35:32Z",
+    "closeTime": "2025-08-19T03:00:32Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.3702,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-18T19:35:32Z",
+        "sl": 1.3672,
+        "tp": 1.3762,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-18T20:29:32Z",
+        "sl": 1.3667,
+        "tp": 1.3757,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-08-18T20:56:32Z",
+        "sl": 1.3672,
+        "tp": 1.3762,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-18T20:03:32Z",
+        "sl": 1.3677,
+        "tp": 1.3757,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-18T20:07:32Z",
+        "entryPrice": 1.36864,
+        "positionSize": 88388,
+        "sl": 1.36564,
+        "tp": 1.37464,
+        "sltpEvents": [
+          {
+            "time": "2025-08-18T20:07:32Z",
+            "sl": 1.36564,
+            "tp": 1.37464,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-18T21:39:32Z",
+            "sl": 1.36514,
+            "tp": 1.37514,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-18T20:11:32Z",
+        "entryPrice": 1.36982,
+        "positionSize": 43482,
+        "sl": 1.36682,
+        "tp": 1.37582,
+        "sltpEvents": [
+          {
+            "time": "2025-08-18T20:11:32Z",
+            "sl": 1.36682,
+            "tp": 1.37582,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-08-18T20:05:32Z",
+        "entryPrice": 1.37204,
+        "positionSize": 68862,
+        "sl": 1.36904,
+        "tp": 1.37804,
+        "sltpEvents": [
+          {
+            "time": "2025-08-18T20:05:32Z",
+            "sl": 1.36904,
+            "tp": 1.37804,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-18T21:10:32Z",
+            "sl": 1.36954,
+            "tp": 1.37854,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": 541.07
+  },
+  {
+    "id": "T-2025-0030",
+    "symbol": "XAUUSD",
+    "direction": "LONG",
+    "openTime": "2025-09-08T00:34:27Z",
+    "closeTime": "2025-09-08T06:59:27Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 2418.21,
+      "positionSize": 20000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-08T00:34:27Z",
+        "sl": 2393.21,
+        "tp": 2468.21,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-08T01:19:27Z",
+        "sl": 2395.21,
+        "tp": 2466.21,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-09-08T02:08:27Z",
+        "sl": 2397.21,
+        "tp": 2468.21,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-08T01:33:27Z",
+        "sl": 2399.21,
+        "tp": 2470.21,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": 3642.09
+  },
+  {
+    "id": "T-2025-0031",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-08-14T16:46:24Z",
+    "closeTime": "2025-08-14T18:48:24Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7654.1,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-14T16:46:24Z",
+        "sl": 7554.1,
+        "tp": 7854.1,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-14T18:18:24Z",
+        "sl": 7564.1,
+        "tp": 7864.1,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-08-14T17:51:24Z",
+        "sl": 7554.1,
+        "tp": 7854.1,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-08-14T18:39:24Z",
+        "sl": 7544.1,
+        "tp": 7864.1,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-14T16:47:24Z",
+        "entryPrice": 7660.9,
+        "positionSize": 16379,
+        "sl": 7560.9,
+        "tp": 7860.9,
+        "sltpEvents": [
+          {
+            "time": "2025-08-14T16:47:24Z",
+            "sl": 7560.9,
+            "tp": 7860.9,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-14T16:58:24Z",
+            "sl": 7570.9,
+            "tp": 7870.9,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-14T17:26:24Z",
+        "entryPrice": 7660.0,
+        "positionSize": 20697,
+        "sl": 7560.0,
+        "tp": 7860.0,
+        "sltpEvents": [
+          {
+            "time": "2025-08-14T17:26:24Z",
+            "sl": 7560.0,
+            "tp": 7860.0,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-14T19:17:24Z",
+            "sl": 7570.0,
+            "tp": 7870.0,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-08-14T19:19:24Z",
+            "sl": 7560.0,
+            "tp": 7860.0,
+            "source": "manual:adjust"
+          }
+        ]
+      }
+    ],
+    "netEur": -413.54
+  },
+  {
+    "id": "T-2025-0032",
+    "symbol": "XAUUSD",
+    "direction": "LONG",
+    "openTime": "2025-06-20T20:23:51Z",
+    "closeTime": "2025-06-21T00:13:51Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 2383.99,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-20T20:23:51Z",
+        "sl": 2358.99,
+        "tp": 2433.99,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-20T20:42:51Z",
+        "entryPrice": 2382.64,
+        "positionSize": 558,
+        "sl": 2357.64,
+        "tp": 2432.64,
+        "sltpEvents": [
+          {
+            "time": "2025-06-20T20:42:51Z",
+            "sl": 2357.64,
+            "tp": 2432.64,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-20T21:51:51Z",
+            "sl": 2359.64,
+            "tp": 2430.64,
+            "source": "manual:adjust"
+          }
+        ]
+      }
+    ],
+    "netEur": -73.8
+  },
+  {
+    "id": "T-2025-0033",
+    "symbol": "NAS100",
+    "direction": "LONG",
+    "openTime": "2025-08-29T21:06:51Z",
+    "closeTime": "2025-08-30T02:35:51Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 18906.5,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-29T21:06:51Z",
+        "sl": 18806.5,
+        "tp": 19106.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-29T23:03:51Z",
+        "sl": 18816.5,
+        "tp": 19096.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-29T22:04:51Z",
+        "sl": 18826.5,
+        "tp": 19106.5,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-08-29T22:36:51Z",
+        "sl": 18836.5,
+        "tp": 19116.5,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-29T22:01:51Z",
+        "entryPrice": 18905.2,
+        "positionSize": 442,
+        "sl": 18805.2,
+        "tp": 19105.2,
+        "sltpEvents": [
+          {
+            "time": "2025-08-29T22:01:51Z",
+            "sl": 18805.2,
+            "tp": 19105.2,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-29T23:16:51Z",
+            "sl": 18815.2,
+            "tp": 19115.2,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-29T23:49:51Z",
+            "sl": 18825.2,
+            "tp": 19125.2,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-29T21:43:51Z",
+        "entryPrice": 18934.1,
+        "positionSize": 766,
+        "sl": 18834.1,
+        "tp": 19134.1,
+        "sltpEvents": [
+          {
+            "time": "2025-08-29T21:43:51Z",
+            "sl": 18834.1,
+            "tp": 19134.1,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -127.0
+  },
+  {
+    "id": "T-2025-0034",
+    "symbol": "UK100",
+    "direction": "LONG",
+    "openTime": "2025-08-08T17:56:04Z",
+    "closeTime": "2025-08-08T19:51:04Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 8322.7,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-08T17:56:04Z",
+        "sl": 8222.7,
+        "tp": 8522.7,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 100.44
+  },
+  {
+    "id": "T-2025-0035",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-07-28T15:18:51Z",
+    "closeTime": "2025-07-28T18:08:51Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 7637.6,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-28T15:18:51Z",
+        "sl": 7537.6,
+        "tp": 7837.6,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-28T16:27:51Z",
+        "sl": 7547.6,
+        "tp": 7827.6,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-07-28T17:16:51Z",
+        "sl": 7557.6,
+        "tp": 7837.6,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": -199.21
+  },
+  {
+    "id": "T-2025-0036",
+    "symbol": "GER40",
+    "direction": "SHORT",
+    "openTime": "2025-08-11T08:38:07Z",
+    "closeTime": "2025-08-11T09:27:07Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 18305.8,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-11T08:38:07Z",
+        "sl": 18205.8,
+        "tp": 18505.8,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-11T09:26:07Z",
+        "entryPrice": 18318.4,
+        "positionSize": 65073,
+        "sl": 18218.4,
+        "tp": 18518.4,
+        "sltpEvents": [
+          {
+            "time": "2025-08-11T09:26:07Z",
+            "sl": 18218.4,
+            "tp": 18518.4,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-11T09:41:07Z",
+            "sl": 18208.4,
+            "tp": 18528.4,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-11T10:47:07Z",
+            "sl": 18218.4,
+            "tp": 18518.4,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-11T09:19:07Z",
+        "entryPrice": 18329.5,
+        "positionSize": 84563,
+        "sl": 18229.5,
+        "tp": 18529.5,
+        "sltpEvents": [
+          {
+            "time": "2025-08-11T09:19:07Z",
+            "sl": 18229.5,
+            "tp": 18529.5,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-11T10:44:07Z",
+            "sl": 18239.5,
+            "tp": 18519.5,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-08-11T09:26:07Z",
+            "sl": 18229.5,
+            "tp": 18529.5,
+            "source": "auto:breakeven"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-08-11T08:46:07Z",
+        "entryPrice": 18276.3,
+        "positionSize": 83235,
+        "sl": 18176.3,
+        "tp": 18476.3,
+        "sltpEvents": [
+          {
+            "time": "2025-08-11T08:46:07Z",
+            "sl": 18176.3,
+            "tp": 18476.3,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-11T09:37:07Z",
+            "sl": 18186.3,
+            "tp": 18486.3,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -16821.22
+  },
+  {
+    "id": "T-2025-0037",
+    "symbol": "NAS100",
+    "direction": "SHORT",
+    "openTime": "2025-06-07T16:28:08Z",
+    "closeTime": "2025-06-07T22:24:08Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 18950.8,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-07T16:28:08Z",
+        "sl": 18850.8,
+        "tp": 19150.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-07T16:42:08Z",
+        "sl": 18860.8,
+        "tp": 19160.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-07T17:20:08Z",
+        "sl": 18870.8,
+        "tp": 19150.8,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -264.7
+  },
+  {
+    "id": "T-2025-0038",
+    "symbol": "EURUSD",
+    "direction": "LONG",
+    "openTime": "2025-07-18T15:06:47Z",
+    "closeTime": "2025-07-18T16:13:47Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.09313,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-18T15:06:47Z",
+        "sl": 1.09013,
+        "tp": 1.09913,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-18T16:23:47Z",
+        "sl": 1.08963,
+        "tp": 1.09863,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": -261.99
+  },
+  {
+    "id": "T-2025-0039",
+    "symbol": "USDJPY",
+    "direction": "SHORT",
+    "openTime": "2025-06-22T16:17:38Z",
+    "closeTime": "2025-06-22T21:58:38Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 150.54967,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-22T16:17:38Z",
+        "sl": 150.54667,
+        "tp": 150.55567,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-22T17:34:38Z",
+        "sl": 150.54717,
+        "tp": 150.55517,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": -11863.54
+  },
+  {
+    "id": "T-2025-0040",
+    "symbol": "US500",
+    "direction": "LONG",
+    "openTime": "2025-06-09T18:05:44Z",
+    "closeTime": "2025-06-10T00:20:44Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 5229.5,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-09T18:05:44Z",
+        "sl": 5129.5,
+        "tp": 5429.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-09T19:05:44Z",
+        "sl": 5119.5,
+        "tp": 5419.5,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-06-09T19:55:44Z",
+        "sl": 5129.5,
+        "tp": 5429.5,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 4734.41
+  },
+  {
+    "id": "T-2025-0041",
+    "symbol": "EURGBP",
+    "direction": "SHORT",
+    "openTime": "2025-06-30T23:20:56Z",
+    "closeTime": "2025-07-01T05:14:56Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 0.86364,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-30T23:20:56Z",
+        "sl": 0.86064,
+        "tp": 0.86964,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -7.84
+  },
+  {
+    "id": "T-2025-0042",
+    "symbol": "AUDUSD",
+    "direction": "SHORT",
+    "openTime": "2025-09-30T01:26:34Z",
+    "closeTime": "2025-09-30T06:43:34Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 0.66115,
+      "positionSize": 20000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-30T01:26:34Z",
+        "sl": 0.65815,
+        "tp": 0.66715,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 5.45
+  },
+  {
+    "id": "T-2025-0043",
+    "symbol": "GBPUSD",
+    "direction": "SHORT",
+    "openTime": "2025-08-22T16:03:07Z",
+    "closeTime": "2025-08-22T20:14:07Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.28137,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-22T16:03:07Z",
+        "sl": 1.27837,
+        "tp": 1.28737,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -12.59
+  },
+  {
+    "id": "T-2025-0044",
+    "symbol": "NAS100",
+    "direction": "SHORT",
+    "openTime": "2025-06-26T10:02:56Z",
+    "closeTime": "2025-06-26T13:19:56Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 19012.4,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-26T10:02:56Z",
+        "sl": 18912.4,
+        "tp": 19212.4,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-26T10:13:56Z",
+        "sl": 18922.4,
+        "tp": 19202.4,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-06-26T10:06:56Z",
+        "sl": 18932.4,
+        "tp": 19192.4,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": -9524.1
+  },
+  {
+    "id": "T-2025-0045",
+    "symbol": "EURUSD",
+    "direction": "SHORT",
+    "openTime": "2025-09-29T08:40:21Z",
+    "closeTime": "2025-09-29T12:38:21Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.09362,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-29T08:40:21Z",
+        "sl": 1.09062,
+        "tp": 1.09962,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-29T10:30:21Z",
+        "sl": 1.09012,
+        "tp": 1.09912,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-29T09:57:21Z",
+        "sl": 1.09062,
+        "tp": 1.09862,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-29T10:33:21Z",
+        "sl": 1.09112,
+        "tp": 1.09912,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-29T08:45:21Z",
+        "entryPrice": 1.09365,
+        "positionSize": 736,
+        "sl": 1.09065,
+        "tp": 1.09965,
+        "sltpEvents": [
+          {
+            "time": "2025-09-29T08:45:21Z",
+            "sl": 1.09065,
+            "tp": 1.09965,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-29T10:42:21Z",
+            "sl": 1.09115,
+            "tp": 1.10015,
+            "source": "manual:adjust"
+          }
+        ]
+      }
+    ],
+    "netEur": 5.18
+  },
+  {
+    "id": "T-2025-0046",
+    "symbol": "UK100",
+    "direction": "LONG",
+    "openTime": "2025-10-01T06:27:12Z",
+    "closeTime": "2025-10-01T10:42:12Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 8294.0,
+      "positionSize": 75000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-10-01T06:27:12Z",
+        "sl": 8194.0,
+        "tp": 8494.0,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-10-01T08:19:12Z",
+        "sl": 8204.0,
+        "tp": 8484.0,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-10-01T06:37:12Z",
+        "sl": 8214.0,
+        "tp": 8494.0,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": -752.07
+  },
+  {
+    "id": "T-2025-0047",
+    "symbol": "EURUSD",
+    "direction": "LONG",
+    "openTime": "2025-07-27T01:52:33Z",
+    "closeTime": "2025-07-27T02:34:33Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.09158,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-27T01:52:33Z",
+        "sl": 1.08858,
+        "tp": 1.09758,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-27T02:53:33Z",
+        "sl": 1.08808,
+        "tp": 1.09808,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-07-27T02:35:33Z",
+        "sl": 1.08858,
+        "tp": 1.09758,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-27T02:51:33Z",
+        "sl": 1.08808,
+        "tp": 1.09808,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 5.73
+  },
+  {
+    "id": "T-2025-0048",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-06-17T03:49:36Z",
+    "closeTime": "2025-06-17T08:50:36Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 7624.9,
+      "positionSize": 20000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-17T03:49:36Z",
+        "sl": 7524.9,
+        "tp": 7824.9,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-17T04:07:36Z",
+        "sl": 7514.9,
+        "tp": 7834.9,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-06-17T05:13:36Z",
+        "sl": 7524.9,
+        "tp": 7824.9,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-17T05:13:36Z",
+        "sl": 7534.9,
+        "tp": 7834.9,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-17T04:03:36Z",
+        "entryPrice": 7620.1,
+        "positionSize": 15193,
+        "sl": 7520.1,
+        "tp": 7820.1,
+        "sltpEvents": [
+          {
+            "time": "2025-06-17T04:03:36Z",
+            "sl": 7520.1,
+            "tp": 7820.1,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-17T04:33:36Z",
+            "sl": 7510.1,
+            "tp": 7810.1,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 752.64
+  },
+  {
+    "id": "T-2025-0049",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-08-05T17:26:08Z",
+    "closeTime": "2025-08-06T00:57:08Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7640.5,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-05T17:26:08Z",
+        "sl": 7540.5,
+        "tp": 7840.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-05T17:48:08Z",
+        "sl": 7530.5,
+        "tp": 7830.5,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": -3087.67
+  },
+  {
+    "id": "T-2025-0050",
+    "symbol": "USDJPY",
+    "direction": "SHORT",
+    "openTime": "2025-09-09T00:23:49Z",
+    "closeTime": "2025-09-09T01:41:49Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 150.49657,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-09T00:23:49Z",
+        "sl": 150.49357,
+        "tp": 150.50257,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-09T02:18:49Z",
+        "sl": 150.49407,
+        "tp": 150.50207,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-09T00:31:49Z",
+        "sl": 150.49457,
+        "tp": 150.50257,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-09T01:14:49Z",
+        "sl": 150.49407,
+        "tp": 150.50307,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-09T01:17:49Z",
+        "entryPrice": 150.59351,
+        "positionSize": 5011,
+        "sl": 150.59051,
+        "tp": 150.59951,
+        "sltpEvents": [
+          {
+            "time": "2025-09-09T01:17:49Z",
+            "sl": 150.59051,
+            "tp": 150.59951,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-09T01:36:49Z",
+            "sl": 150.59001,
+            "tp": 150.60001,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -4771.8
+  },
+  {
+    "id": "T-2025-0051",
+    "symbol": "EURUSD",
+    "direction": "LONG",
+    "openTime": "2025-07-21T00:41:31Z",
+    "closeTime": "2025-07-21T02:34:31Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.09365,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-21T00:41:31Z",
+        "sl": 1.09065,
+        "tp": 1.09965,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-21T00:57:31Z",
+        "sl": 1.09115,
+        "tp": 1.09915,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-07-21T00:58:31Z",
+        "sl": 1.09065,
+        "tp": 1.09865,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-07-21T02:04:31Z",
+        "sl": 1.09115,
+        "tp": 1.09815,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 36.02
+  },
+  {
+    "id": "T-2025-0052",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-08-23T16:23:53Z",
+    "closeTime": "2025-08-23T16:26:53Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 7617.5,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-23T16:23:53Z",
+        "sl": 7517.5,
+        "tp": 7817.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-23T17:50:53Z",
+        "sl": 7507.5,
+        "tp": 7827.5,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -1767.41
+  },
+  {
+    "id": "T-2025-0053",
+    "symbol": "NAS100",
+    "direction": "LONG",
+    "openTime": "2025-08-15T10:59:51Z",
+    "closeTime": "2025-08-15T14:13:51Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 18906.4,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-15T10:59:51Z",
+        "sl": 18806.4,
+        "tp": 19106.4,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-15T11:31:51Z",
+        "sl": 18796.4,
+        "tp": 19116.4,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-08-15T11:06:51Z",
+        "sl": 18806.4,
+        "tp": 19126.4,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": -393.28
+  },
+  {
+    "id": "T-2025-0054",
+    "symbol": "USDJPY",
+    "direction": "LONG",
+    "openTime": "2025-08-29T04:56:29Z",
+    "closeTime": "2025-08-29T05:17:29Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 149.69016,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-29T04:56:29Z",
+        "sl": 149.68716,
+        "tp": 149.69616,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-29T05:29:29Z",
+        "entryPrice": 149.64446,
+        "positionSize": 7892,
+        "sl": 149.64146,
+        "tp": 149.65046,
+        "sltpEvents": [
+          {
+            "time": "2025-08-29T05:29:29Z",
+            "sl": 149.64146,
+            "tp": 149.65046,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-29T06:03:29Z",
+            "sl": 149.64096,
+            "tp": 149.64996,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-08-29T06:16:29Z",
+            "sl": 149.64046,
+            "tp": 149.65046,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-08-29T05:46:29Z",
+            "sl": 149.64096,
+            "tp": 149.65096,
+            "source": "auto:breakeven"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-29T05:44:29Z",
+        "entryPrice": 149.6631,
+        "positionSize": 8738,
+        "sl": 149.6601,
+        "tp": 149.6691,
+        "sltpEvents": [
+          {
+            "time": "2025-08-29T05:44:29Z",
+            "sl": 149.6601,
+            "tp": 149.6691,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-29T06:09:29Z",
+            "sl": 149.6606,
+            "tp": 149.6696,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-08-29T07:44:29Z",
+            "sl": 149.6611,
+            "tp": 149.6691,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -4091.6
+  },
+  {
+    "id": "T-2025-0055",
+    "symbol": "EURGBP",
+    "direction": "LONG",
+    "openTime": "2025-08-04T00:13:03Z",
+    "closeTime": "2025-08-04T05:54:03Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 0.85824,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-04T00:13:03Z",
+        "sl": 0.85524,
+        "tp": 0.86424,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-04T01:43:03Z",
+        "sl": 0.85574,
+        "tp": 0.86474,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-04T00:53:03Z",
+        "entryPrice": 0.85952,
+        "positionSize": 23236,
+        "sl": 0.85652,
+        "tp": 0.86552,
+        "sltpEvents": [
+          {
+            "time": "2025-08-04T00:53:03Z",
+            "sl": 0.85652,
+            "tp": 0.86552,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-04T00:18:03Z",
+        "entryPrice": 0.85868,
+        "positionSize": 27186,
+        "sl": 0.85568,
+        "tp": 0.86468,
+        "sltpEvents": [
+          {
+            "time": "2025-08-04T00:18:03Z",
+            "sl": 0.85568,
+            "tp": 0.86468,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-04T00:23:03Z",
+            "sl": 0.85518,
+            "tp": 0.86518,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -15.34
+  },
+  {
+    "id": "T-2025-0056",
+    "symbol": "US30",
+    "direction": "LONG",
+    "openTime": "2025-07-01T03:04:25Z",
+    "closeTime": "2025-07-01T08:54:25Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 38960.9,
+      "positionSize": 75000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-01T03:04:25Z",
+        "sl": 38860.9,
+        "tp": 39160.9,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -6605.43
+  },
+  {
+    "id": "T-2025-0057",
+    "symbol": "GBPUSD",
+    "direction": "LONG",
+    "openTime": "2025-07-07T11:02:48Z",
+    "closeTime": "2025-07-07T15:20:48Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 1.28023,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-07T11:02:48Z",
+        "sl": 1.27723,
+        "tp": 1.28623,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-07T12:43:48Z",
+        "sl": 1.27773,
+        "tp": 1.28673,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-07-07T12:22:48Z",
+        "sl": 1.27823,
+        "tp": 1.28723,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-07T11:31:48Z",
+        "entryPrice": 1.27897,
+        "positionSize": 1456,
+        "sl": 1.27597,
+        "tp": 1.28497,
+        "sltpEvents": [
+          {
+            "time": "2025-07-07T11:31:48Z",
+            "sl": 1.27597,
+            "tp": 1.28497,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 3.74
+  },
+  {
+    "id": "T-2025-0058",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-09-14T14:42:06Z",
+    "closeTime": "2025-09-14T17:13:06Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7659.5,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-14T14:42:06Z",
+        "sl": 7559.5,
+        "tp": 7859.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-14T15:49:06Z",
+        "sl": 7549.5,
+        "tp": 7849.5,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-14T16:25:06Z",
+        "sl": 7539.5,
+        "tp": 7839.5,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 330.55
+  },
+  {
+    "id": "T-2025-0059",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-09-10T02:14:20Z",
+    "closeTime": "2025-09-10T09:55:20Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 7567.2,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-10T02:14:20Z",
+        "sl": 7467.2,
+        "tp": 7767.2,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-10T02:32:20Z",
+        "sl": 7477.2,
+        "tp": 7757.2,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-10T03:31:20Z",
+        "sl": 7467.2,
+        "tp": 7747.2,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": 588.29
+  },
+  {
+    "id": "T-2025-0060",
+    "symbol": "GER40",
+    "direction": "SHORT",
+    "openTime": "2025-07-12T06:26:17Z",
+    "closeTime": "2025-07-12T13:01:17Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 18226.3,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-12T06:26:17Z",
+        "sl": 18126.3,
+        "tp": 18426.3,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-12T08:21:17Z",
+        "sl": 18136.3,
+        "tp": 18436.3,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-07-12T06:59:17Z",
+        "sl": 18146.3,
+        "tp": 18446.3,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-07-12T06:37:17Z",
+        "sl": 18136.3,
+        "tp": 18436.3,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-12T06:40:17Z",
+        "entryPrice": 18214.6,
+        "positionSize": 386,
+        "sl": 18114.6,
+        "tp": 18414.6,
+        "sltpEvents": [
+          {
+            "time": "2025-07-12T06:40:17Z",
+            "sl": 18114.6,
+            "tp": 18414.6,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-12T08:15:17Z",
+            "sl": 18124.6,
+            "tp": 18424.6,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-07-12T08:19:17Z",
+            "sl": 18134.6,
+            "tp": 18414.6,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-12T06:42:17Z",
+        "entryPrice": 18223.9,
+        "positionSize": 460,
+        "sl": 18123.9,
+        "tp": 18423.9,
+        "sltpEvents": [
+          {
+            "time": "2025-07-12T06:42:17Z",
+            "sl": 18123.9,
+            "tp": 18423.9,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-12T07:02:17Z",
+            "sl": 18113.9,
+            "tp": 18413.9,
+            "source": "algo:trailing"
+          }
+        ]
+      }
+    ],
+    "netEur": 54.9
+  },
+  {
+    "id": "T-2025-0061",
+    "symbol": "USDJPY",
+    "direction": "SHORT",
+    "openTime": "2025-08-01T01:21:25Z",
+    "closeTime": "2025-08-01T03:01:25Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 150.39468,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-01T01:21:25Z",
+        "sl": 150.39168,
+        "tp": 150.40068,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-01T02:26:25Z",
+        "sl": 150.39218,
+        "tp": 150.40118,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-01T01:34:25Z",
+        "sl": 150.39268,
+        "tp": 150.40168,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-08-01T01:50:25Z",
+        "sl": 150.39318,
+        "tp": 150.40118,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-01T02:18:25Z",
+        "entryPrice": 150.54937,
+        "positionSize": 70351,
+        "sl": 150.54637,
+        "tp": 150.55537,
+        "sltpEvents": [
+          {
+            "time": "2025-08-01T02:18:25Z",
+            "sl": 150.54637,
+            "tp": 150.55537,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-01T03:28:25Z",
+            "sl": 150.54587,
+            "tp": 150.55487,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-08-01T02:37:25Z",
+            "sl": 150.54637,
+            "tp": 150.55537,
+            "source": "auto:breakeven"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-08-01T01:45:25Z",
+        "entryPrice": 150.1895,
+        "positionSize": 33069,
+        "sl": 150.1865,
+        "tp": 150.1955,
+        "sltpEvents": [
+          {
+            "time": "2025-08-01T01:45:25Z",
+            "sl": 150.1865,
+            "tp": 150.1955,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-01T02:33:25Z",
+            "sl": 150.187,
+            "tp": 150.195,
+            "source": "auto:breakeven"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "time": "2025-08-01T01:54:25Z",
+        "entryPrice": 150.37228,
+        "positionSize": 62991,
+        "sl": 150.36928,
+        "tp": 150.37828,
+        "sltpEvents": [
+          {
+            "time": "2025-08-01T01:54:25Z",
+            "sl": 150.36928,
+            "tp": 150.37828,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -160.64
+  },
+  {
+    "id": "T-2025-0062",
+    "symbol": "US500",
+    "direction": "SHORT",
+    "openTime": "2025-07-09T23:40:37Z",
+    "closeTime": "2025-07-10T04:51:37Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 5200.9,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-09T23:40:37Z",
+        "sl": 5100.9,
+        "tp": 5400.9,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-10T00:32:37Z",
+        "entryPrice": 5200.4,
+        "positionSize": 574,
+        "sl": 5100.4,
+        "tp": 5400.4,
+        "sltpEvents": [
+          {
+            "time": "2025-07-10T00:32:37Z",
+            "sl": 5100.4,
+            "tp": 5400.4,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-10T01:15:37Z",
+            "sl": 5110.4,
+            "tp": 5390.4,
+            "source": "auto:breakeven"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-10T00:20:37Z",
+        "entryPrice": 5205.9,
+        "positionSize": 479,
+        "sl": 5105.9,
+        "tp": 5405.9,
+        "sltpEvents": [
+          {
+            "time": "2025-07-10T00:20:37Z",
+            "sl": 5105.9,
+            "tp": 5405.9,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-10T01:26:37Z",
+            "sl": 5115.9,
+            "tp": 5415.9,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-07-10T02:06:37Z",
+            "sl": 5105.9,
+            "tp": 5425.9,
+            "source": "algo:trailing"
+          }
+        ]
+      }
+    ],
+    "netEur": -4.9
+  },
+  {
+    "id": "T-2025-0063",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-09-01T11:45:02Z",
+    "closeTime": "2025-09-01T14:03:02Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7671.0,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-01T11:45:02Z",
+        "sl": 7571.0,
+        "tp": 7871.0,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 189.89
+  },
+  {
+    "id": "T-2025-0064",
+    "symbol": "USDJPY",
+    "direction": "LONG",
+    "openTime": "2025-09-20T12:22:15Z",
+    "closeTime": "2025-09-20T18:23:15Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 149.41484,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-20T12:22:15Z",
+        "sl": 149.41184,
+        "tp": 149.42084,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-20T12:43:15Z",
+        "sl": 149.41234,
+        "tp": 149.42034,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-20T13:28:15Z",
+        "sl": 149.41284,
+        "tp": 149.41984,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-20T13:30:15Z",
+        "sl": 149.41234,
+        "tp": 149.42034,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-20T12:34:15Z",
+        "entryPrice": 149.39676,
+        "positionSize": 18596,
+        "sl": 149.39376,
+        "tp": 149.40276,
+        "sltpEvents": [
+          {
+            "time": "2025-09-20T12:34:15Z",
+            "sl": 149.39376,
+            "tp": 149.40276,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-20T14:02:15Z",
+            "sl": 149.39426,
+            "tp": 149.40326,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-09-20T13:07:15Z",
+            "sl": 149.39476,
+            "tp": 149.40376,
+            "source": "manual:adjust"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-09-20T12:42:15Z",
+        "entryPrice": 149.53639,
+        "positionSize": 21688,
+        "sl": 149.53339,
+        "tp": 149.54239,
+        "sltpEvents": [
+          {
+            "time": "2025-09-20T12:42:15Z",
+            "sl": 149.53339,
+            "tp": 149.54239,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-20T13:24:15Z",
+            "sl": 149.53389,
+            "tp": 149.54289,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-09-20T13:20:15Z",
+            "sl": 149.53339,
+            "tp": 149.54339,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-09-20T14:28:15Z",
+            "sl": 149.53389,
+            "tp": 149.54289,
+            "source": "algo:trailing"
+          }
+        ]
+      }
+    ],
+    "netEur": 12686.45
+  },
+  {
+    "id": "T-2025-0065",
+    "symbol": "GER40",
+    "direction": "SHORT",
+    "openTime": "2025-09-02T08:40:16Z",
+    "closeTime": "2025-09-02T10:32:16Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 18091.6,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-02T08:40:16Z",
+        "sl": 17991.6,
+        "tp": 18291.6,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-02T08:59:16Z",
+        "sl": 17981.6,
+        "tp": 18281.6,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-02T08:48:16Z",
+        "sl": 17971.6,
+        "tp": 18271.6,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 1033.86
+  },
+  {
+    "id": "T-2025-0066",
+    "symbol": "XAUUSD",
+    "direction": "SHORT",
+    "openTime": "2025-07-27T13:00:49Z",
+    "closeTime": "2025-07-27T20:31:49Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 2377.8,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-27T13:00:49Z",
+        "sl": 2352.8,
+        "tp": 2427.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-27T13:38:49Z",
+        "sl": 2354.8,
+        "tp": 2429.8,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-07-27T14:50:49Z",
+        "sl": 2356.8,
+        "tp": 2431.8,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": -169.48
+  },
+  {
+    "id": "T-2025-0067",
+    "symbol": "EURUSD",
+    "direction": "SHORT",
+    "openTime": "2025-09-19T14:03:08Z",
+    "closeTime": "2025-09-19T19:51:08Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.0928,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-19T14:03:08Z",
+        "sl": 1.0898,
+        "tp": 1.0988,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-19T15:10:08Z",
+        "sl": 1.0903,
+        "tp": 1.0983,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-19T15:30:08Z",
+        "sl": 1.0898,
+        "tp": 1.0978,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-19T15:06:08Z",
+        "sl": 1.0903,
+        "tp": 1.0973,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-19T14:32:08Z",
+        "entryPrice": 1.09363,
+        "positionSize": 43621,
+        "sl": 1.09063,
+        "tp": 1.09963,
+        "sltpEvents": [
+          {
+            "time": "2025-09-19T14:32:08Z",
+            "sl": 1.09063,
+            "tp": 1.09963,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-19T15:48:08Z",
+            "sl": 1.09013,
+            "tp": 1.10013,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-09-19T16:02:08Z",
+            "sl": 1.08963,
+            "tp": 1.09963,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -126.83
+  },
+  {
+    "id": "T-2025-0068",
+    "symbol": "FRA40",
+    "direction": "SHORT",
+    "openTime": "2025-06-24T03:11:49Z",
+    "closeTime": "2025-06-24T08:41:49Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7663.3,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-24T03:11:49Z",
+        "sl": 7563.3,
+        "tp": 7863.3,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-24T03:30:49Z",
+        "sl": 7573.3,
+        "tp": 7853.3,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": -305.84
+  },
+  {
+    "id": "T-2025-0069",
+    "symbol": "US500",
+    "direction": "LONG",
+    "openTime": "2025-09-25T00:41:47Z",
+    "closeTime": "2025-09-25T08:11:47Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 5229.9,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-25T00:41:47Z",
+        "sl": 5129.9,
+        "tp": 5429.9,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-25T00:52:47Z",
+        "sl": 5119.9,
+        "tp": 5419.9,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-25T01:56:47Z",
+        "sl": 5109.9,
+        "tp": 5409.9,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": 201.99
+  },
+  {
+    "id": "T-2025-0070",
+    "symbol": "US500",
+    "direction": "SHORT",
+    "openTime": "2025-08-28T09:08:51Z",
+    "closeTime": "2025-08-28T10:18:51Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 5201.4,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-28T09:08:51Z",
+        "sl": 5101.4,
+        "tp": 5401.4,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-28T10:36:51Z",
+        "sl": 5111.4,
+        "tp": 5391.4,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-08-28T09:42:51Z",
+        "sl": 5101.4,
+        "tp": 5381.4,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-28T09:15:51Z",
+        "sl": 5111.4,
+        "tp": 5391.4,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-08-28T10:08:51Z",
+        "entryPrice": 5209.6,
+        "positionSize": 891,
+        "sl": 5109.6,
+        "tp": 5409.6,
+        "sltpEvents": [
+          {
+            "time": "2025-08-28T10:08:51Z",
+            "sl": 5109.6,
+            "tp": 5409.6,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-08-28T10:14:51Z",
+            "sl": 5119.6,
+            "tp": 5419.6,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-08-28T11:48:51Z",
+            "sl": 5109.6,
+            "tp": 5429.6,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-08-28T12:04:51Z",
+            "sl": 5119.6,
+            "tp": 5439.6,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -6.52
+  },
+  {
+    "id": "T-2025-0071",
+    "symbol": "GER40",
+    "direction": "SHORT",
+    "openTime": "2025-07-05T23:44:50Z",
+    "closeTime": "2025-07-06T04:22:50Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 18161.1,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-05T23:44:50Z",
+        "sl": 18061.1,
+        "tp": 18361.1,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -1916.18
+  },
+  {
+    "id": "T-2025-0072",
+    "symbol": "XAUUSD",
+    "direction": "LONG",
+    "openTime": "2025-08-29T18:40:09Z",
+    "closeTime": "2025-08-29T21:40:09Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 2383.45,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-29T18:40:09Z",
+        "sl": 2358.45,
+        "tp": 2433.45,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -281.64
+  },
+  {
+    "id": "T-2025-0073",
+    "symbol": "AUDUSD",
+    "direction": "LONG",
+    "openTime": "2025-09-24T15:58:49Z",
+    "closeTime": "2025-09-24T16:18:49Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 0.65965,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-24T15:58:49Z",
+        "sl": 0.65665,
+        "tp": 0.66565,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-24T17:34:49Z",
+        "sl": 0.65615,
+        "tp": 0.66615,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-24T16:47:49Z",
+        "entryPrice": 0.66037,
+        "positionSize": 333,
+        "sl": 0.65737,
+        "tp": 0.66637,
+        "sltpEvents": [
+          {
+            "time": "2025-09-24T16:47:49Z",
+            "sl": 0.65737,
+            "tp": 0.66637,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-24T17:18:49Z",
+            "sl": 0.65787,
+            "tp": 0.66687,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-09-24T17:27:49Z",
+            "sl": 0.65737,
+            "tp": 0.66637,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": 0.45
+  },
+  {
+    "id": "T-2025-0074",
+    "symbol": "USDJPY",
+    "direction": "SHORT",
+    "openTime": "2025-09-05T13:45:37Z",
+    "closeTime": "2025-09-05T14:12:37Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 150.70844,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-05T13:45:37Z",
+        "sl": 150.70544,
+        "tp": 150.71444,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-05T15:16:37Z",
+        "sl": 150.70594,
+        "tp": 150.71494,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-05T14:25:37Z",
+        "sl": 150.70644,
+        "tp": 150.71444,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-05T14:05:37Z",
+        "entryPrice": 150.87009,
+        "positionSize": 19330,
+        "sl": 150.86709,
+        "tp": 150.87609,
+        "sltpEvents": [
+          {
+            "time": "2025-09-05T14:05:37Z",
+            "sl": 150.86709,
+            "tp": 150.87609,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-05T16:04:37Z",
+            "sl": 150.86659,
+            "tp": 150.87659,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-09-05T15:18:37Z",
+            "sl": 150.86609,
+            "tp": 150.87709,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-09-05T14:39:37Z",
+            "sl": 150.86559,
+            "tp": 150.87759,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -28000.57
+  },
+  {
+    "id": "T-2025-0075",
+    "symbol": "AUDUSD",
+    "direction": "LONG",
+    "openTime": "2025-08-13T13:43:48Z",
+    "closeTime": "2025-08-13T19:30:48Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 0.66069,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-13T13:43:48Z",
+        "sl": 0.65769,
+        "tp": 0.66669,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-13T15:27:48Z",
+        "sl": 0.65719,
+        "tp": 0.66719,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": 8.87
+  },
+  {
+    "id": "T-2025-0076",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-09-02T07:55:58Z",
+    "closeTime": "2025-09-02T15:46:58Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7560.9,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-02T07:55:58Z",
+        "sl": 7460.9,
+        "tp": 7760.9,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-02T09:54:58Z",
+        "sl": 7450.9,
+        "tp": 7770.9,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-09-02T08:45:58Z",
+        "sl": 7460.9,
+        "tp": 7780.9,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-09-02T08:30:58Z",
+        "sl": 7470.9,
+        "tp": 7790.9,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 217.26
+  },
+  {
+    "id": "T-2025-0077",
+    "symbol": "UK100",
+    "direction": "SHORT",
+    "openTime": "2025-06-28T12:15:14Z",
+    "closeTime": "2025-06-28T18:26:14Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 8307.7,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-28T12:15:14Z",
+        "sl": 8207.7,
+        "tp": 8507.7,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-28T13:08:14Z",
+        "entryPrice": 8313.3,
+        "positionSize": 75860,
+        "sl": 8213.3,
+        "tp": 8513.3,
+        "sltpEvents": [
+          {
+            "time": "2025-06-28T13:08:14Z",
+            "sl": 8213.3,
+            "tp": 8513.3,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-28T13:27:14Z",
+            "sl": 8203.3,
+            "tp": 8503.3,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-06-28T13:11:14Z",
+            "sl": 8193.3,
+            "tp": 8513.3,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-06-28T13:17:14Z",
+            "sl": 8203.3,
+            "tp": 8523.3,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 1304.42
+  },
+  {
+    "id": "T-2025-0078",
+    "symbol": "USDCAD",
+    "direction": "SHORT",
+    "openTime": "2025-09-06T20:29:46Z",
+    "closeTime": "2025-09-07T03:28:46Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.37271,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-06T20:29:46Z",
+        "sl": 1.36971,
+        "tp": 1.37871,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -4.66
+  },
+  {
+    "id": "T-2025-0079",
+    "symbol": "EURGBP",
+    "direction": "SHORT",
+    "openTime": "2025-06-16T16:15:22Z",
+    "closeTime": "2025-06-16T19:29:22Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 0.86395,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-16T16:15:22Z",
+        "sl": 0.86095,
+        "tp": 0.86995,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-16T16:55:22Z",
+        "sl": 0.86045,
+        "tp": 0.86945,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-16T16:51:22Z",
+        "entryPrice": 0.86389,
+        "positionSize": 6820,
+        "sl": 0.86089,
+        "tp": 0.86989,
+        "sltpEvents": [
+          {
+            "time": "2025-06-16T16:51:22Z",
+            "sl": 0.86089,
+            "tp": 0.86989,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-16T17:03:22Z",
+            "sl": 0.86139,
+            "tp": 0.87039,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-06-16T16:52:22Z",
+        "entryPrice": 0.86519,
+        "positionSize": 8843,
+        "sl": 0.86219,
+        "tp": 0.87119,
+        "sltpEvents": [
+          {
+            "time": "2025-06-16T16:52:22Z",
+            "sl": 0.86219,
+            "tp": 0.87119,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -6.75
+  },
+  {
+    "id": "T-2025-0080",
+    "symbol": "USDCAD",
+    "direction": "LONG",
+    "openTime": "2025-07-25T18:37:58Z",
+    "closeTime": "2025-07-26T02:20:58Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.37059,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-25T18:37:58Z",
+        "sl": 1.36759,
+        "tp": 1.37659,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-25T18:41:58Z",
+        "sl": 1.36709,
+        "tp": 1.37609,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-07-25T20:37:58Z",
+        "sl": 1.36659,
+        "tp": 1.37659,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": 3.75
+  },
+  {
+    "id": "T-2025-0081",
+    "symbol": "XAUUSD",
+    "direction": "LONG",
+    "openTime": "2025-06-16T13:29:58Z",
+    "closeTime": "2025-06-16T17:48:58Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 2411.78,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-16T13:29:58Z",
+        "sl": 2386.78,
+        "tp": 2461.78,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-16T14:00:58Z",
+        "sl": 2384.78,
+        "tp": 2463.78,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-06-16T15:10:58Z",
+        "sl": 2386.78,
+        "tp": 2461.78,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-06-16T15:11:58Z",
+        "sl": 2388.78,
+        "tp": 2463.78,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": -145.48
+  },
+  {
+    "id": "T-2025-0082",
+    "symbol": "EURGBP",
+    "direction": "LONG",
+    "openTime": "2025-09-25T11:05:09Z",
+    "closeTime": "2025-09-25T17:49:09Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 0.85849,
+      "positionSize": 20000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-25T11:05:09Z",
+        "sl": 0.85549,
+        "tp": 0.86449,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-25T11:56:09Z",
+        "sl": 0.85499,
+        "tp": 0.86399,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-25T12:34:09Z",
+        "sl": 0.85549,
+        "tp": 0.86349,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-25T11:41:09Z",
+        "sl": 0.85599,
+        "tp": 0.86399,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-25T11:33:09Z",
+        "entryPrice": 0.85791,
+        "positionSize": 9597,
+        "sl": 0.85491,
+        "tp": 0.86391,
+        "sltpEvents": [
+          {
+            "time": "2025-09-25T11:33:09Z",
+            "sl": 0.85491,
+            "tp": 0.86391,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -18.15
+  },
+  {
+    "id": "T-2025-0083",
+    "symbol": "US30",
+    "direction": "LONG",
+    "openTime": "2025-06-22T02:31:38Z",
+    "closeTime": "2025-06-22T03:43:38Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 38847.6,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-22T02:31:38Z",
+        "sl": 38747.6,
+        "tp": 39047.6,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-22T04:15:38Z",
+        "sl": 38757.6,
+        "tp": 39057.6,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-06-22T03:28:38Z",
+        "sl": 38747.6,
+        "tp": 39067.6,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-06-22T03:50:38Z",
+        "sl": 38737.6,
+        "tp": 39077.6,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-22T02:52:38Z",
+        "entryPrice": 38815.2,
+        "positionSize": 21509,
+        "sl": 38715.2,
+        "tp": 39015.2,
+        "sltpEvents": [
+          {
+            "time": "2025-06-22T02:52:38Z",
+            "sl": 38715.2,
+            "tp": 39015.2,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-22T04:07:38Z",
+            "sl": 38705.2,
+            "tp": 39025.2,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-06-22T03:29:38Z",
+            "sl": 38715.2,
+            "tp": 39035.2,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-22T04:06:38Z",
+            "sl": 38705.2,
+            "tp": 39025.2,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-06-22T03:18:38Z",
+        "entryPrice": 38841.6,
+        "positionSize": 21750,
+        "sl": 38741.6,
+        "tp": 39041.6,
+        "sltpEvents": [
+          {
+            "time": "2025-06-22T03:18:38Z",
+            "sl": 38741.6,
+            "tp": 39041.6,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-22T05:02:38Z",
+            "sl": 38751.6,
+            "tp": 39031.6,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-06-22T04:46:38Z",
+            "sl": 38761.6,
+            "tp": 39021.6,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-06-22T03:50:38Z",
+            "sl": 38771.6,
+            "tp": 39011.6,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": 12417.49
+  },
+  {
+    "id": "T-2025-0084",
+    "symbol": "XAUUSD",
+    "direction": "SHORT",
+    "openTime": "2025-06-08T11:20:17Z",
+    "closeTime": "2025-06-08T18:07:17Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 2422.48,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-08T11:20:17Z",
+        "sl": 2397.48,
+        "tp": 2472.48,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-08T12:03:17Z",
+        "entryPrice": 2424.08,
+        "positionSize": 39980,
+        "sl": 2399.08,
+        "tp": 2474.08,
+        "sltpEvents": [
+          {
+            "time": "2025-06-08T12:03:17Z",
+            "sl": 2399.08,
+            "tp": 2474.08,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 10260.9
+  },
+  {
+    "id": "T-2025-0085",
+    "symbol": "EURGBP",
+    "direction": "SHORT",
+    "openTime": "2025-06-03T09:09:22Z",
+    "closeTime": "2025-06-03T10:02:22Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 0.85793,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-03T09:09:22Z",
+        "sl": 0.85493,
+        "tp": 0.86393,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-03T10:08:22Z",
+        "sl": 0.85543,
+        "tp": 0.86443,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 4.02
+  },
+  {
+    "id": "T-2025-0086",
+    "symbol": "GBPUSD",
+    "direction": "SHORT",
+    "openTime": "2025-06-18T00:06:44Z",
+    "closeTime": "2025-06-18T01:08:44Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.28424,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-18T00:06:44Z",
+        "sl": 1.28124,
+        "tp": 1.29024,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-18T00:51:44Z",
+        "sl": 1.28174,
+        "tp": 1.28974,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-06-18T00:52:44Z",
+        "sl": 1.28224,
+        "tp": 1.28924,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": -62.17
+  },
+  {
+    "id": "T-2025-0087",
+    "symbol": "EURUSD",
+    "direction": "SHORT",
+    "openTime": "2025-06-22T13:40:01Z",
+    "closeTime": "2025-06-22T19:29:01Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 1.09327,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-22T13:40:01Z",
+        "sl": 1.09027,
+        "tp": 1.09927,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-22T14:52:01Z",
+        "sl": 1.08977,
+        "tp": 1.09977,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 28.19
+  },
+  {
+    "id": "T-2025-0088",
+    "symbol": "XAUUSD",
+    "direction": "SHORT",
+    "openTime": "2025-09-28T13:56:44Z",
+    "closeTime": "2025-09-28T21:31:44Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 2385.47,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-28T13:56:44Z",
+        "sl": 2360.47,
+        "tp": 2435.47,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": 1678.42
+  },
+  {
+    "id": "T-2025-0089",
+    "symbol": "GBPUSD",
+    "direction": "LONG",
+    "openTime": "2025-08-03T15:11:59Z",
+    "closeTime": "2025-08-03T16:54:59Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.27946,
+      "positionSize": 75000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-03T15:11:59Z",
+        "sl": 1.27646,
+        "tp": 1.28546,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-03T16:29:59Z",
+        "sl": 1.27696,
+        "tp": 1.28596,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-03T15:57:59Z",
+        "sl": 1.27746,
+        "tp": 1.28646,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": -179.03
+  },
+  {
+    "id": "T-2025-0090",
+    "symbol": "USDJPY",
+    "direction": "SHORT",
+    "openTime": "2025-07-17T15:49:46Z",
+    "closeTime": "2025-07-17T18:28:46Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 149.42542,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-17T15:49:46Z",
+        "sl": 149.42242,
+        "tp": 149.43142,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-17T16:44:46Z",
+        "sl": 149.42192,
+        "tp": 149.43192,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-07-17T16:14:46Z",
+        "sl": 149.42242,
+        "tp": 149.43142,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-07-17T16:53:46Z",
+        "sl": 149.42292,
+        "tp": 149.43092,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-17T16:29:46Z",
+        "entryPrice": 149.22531,
+        "positionSize": 2577,
+        "sl": 149.22231,
+        "tp": 149.23131,
+        "sltpEvents": [
+          {
+            "time": "2025-07-17T16:29:46Z",
+            "sl": 149.22231,
+            "tp": 149.23131,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-17T16:21:46Z",
+        "entryPrice": 149.26249,
+        "positionSize": 3945,
+        "sl": 149.25949,
+        "tp": 149.26849,
+        "sltpEvents": [
+          {
+            "time": "2025-07-17T16:21:46Z",
+            "sl": 149.25949,
+            "tp": 149.26849,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-17T17:15:46Z",
+            "sl": 149.25999,
+            "tp": 149.26899,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-07-17T17:25:46Z",
+            "sl": 149.25949,
+            "tp": 149.26849,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-17T18:04:46Z",
+            "sl": 149.25899,
+            "tp": 149.26899,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -622.84
+  },
+  {
+    "id": "T-2025-0091",
+    "symbol": "FRA40",
+    "direction": "SHORT",
+    "openTime": "2025-09-08T12:31:42Z",
+    "closeTime": "2025-09-08T13:31:42Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7611.1,
+      "positionSize": 100000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-08T12:31:42Z",
+        "sl": 7511.1,
+        "tp": 7811.1,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-08T13:42:42Z",
+        "sl": 7501.1,
+        "tp": 7821.1,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-09-08T13:27:42Z",
+        "sl": 7491.1,
+        "tp": 7811.1,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": -985.97
+  },
+  {
+    "id": "T-2025-0092",
+    "symbol": "GBPUSD",
+    "direction": "LONG",
+    "openTime": "2025-09-23T11:55:26Z",
+    "closeTime": "2025-09-23T17:50:26Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 1.27809,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-23T11:55:26Z",
+        "sl": 1.27509,
+        "tp": 1.28409,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-23T13:15:26Z",
+        "sl": 1.27459,
+        "tp": 1.28359,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [],
+    "netEur": 96.8
+  },
+  {
+    "id": "T-2025-0093",
+    "symbol": "FRA40",
+    "direction": "SHORT",
+    "openTime": "2025-09-20T13:08:28Z",
+    "closeTime": "2025-09-20T15:27:28Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 7668.8,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-20T13:08:28Z",
+        "sl": 7568.8,
+        "tp": 7868.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-20T14:46:28Z",
+        "sl": 7578.8,
+        "tp": 7858.8,
+        "source": "algo:trailing"
+      }
+    ],
+    "addIns": [],
+    "netEur": -2.57
+  },
+  {
+    "id": "T-2025-0094",
+    "symbol": "AUDUSD",
+    "direction": "SHORT",
+    "openTime": "2025-06-28T22:34:04Z",
+    "closeTime": "2025-06-29T03:32:04Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 0.66087,
+      "positionSize": 50000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-28T22:34:04Z",
+        "sl": 0.65787,
+        "tp": 0.66687,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-06-28T22:45:04Z",
+        "sl": 0.65737,
+        "tp": 0.66737,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-06-29T00:04:04Z",
+        "sl": 0.65787,
+        "tp": 0.66787,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-06-28T23:17:04Z",
+        "sl": 0.65737,
+        "tp": 0.66737,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 28.76
+  },
+  {
+    "id": "T-2025-0095",
+    "symbol": "XAUUSD",
+    "direction": "LONG",
+    "openTime": "2025-07-23T11:28:20Z",
+    "closeTime": "2025-07-23T14:16:20Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 2415.76,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-23T11:28:20Z",
+        "sl": 2390.76,
+        "tp": 2465.76,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-23T13:10:20Z",
+        "sl": 2392.76,
+        "tp": 2463.76,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-23T11:42:20Z",
+        "sl": 2394.76,
+        "tp": 2461.76,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-23T13:28:20Z",
+        "sl": 2392.76,
+        "tp": 2463.76,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-23T11:41:20Z",
+        "entryPrice": 2420.55,
+        "positionSize": 4228,
+        "sl": 2395.55,
+        "tp": 2470.55,
+        "sltpEvents": [
+          {
+            "time": "2025-07-23T11:41:20Z",
+            "sl": 2395.55,
+            "tp": 2470.55,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-23T12:03:20Z",
+            "sl": 2397.55,
+            "tp": 2468.55,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-07-23T12:15:20Z",
+            "sl": 2395.55,
+            "tp": 2470.55,
+            "source": "manual:adjust"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-23T11:32:20Z",
+        "entryPrice": 2414.76,
+        "positionSize": 2416,
+        "sl": 2389.76,
+        "tp": 2464.76,
+        "sltpEvents": [
+          {
+            "time": "2025-07-23T11:32:20Z",
+            "sl": 2389.76,
+            "tp": 2464.76,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-23T12:28:20Z",
+            "sl": 2387.76,
+            "tp": 2462.76,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -302.52
+  },
+  {
+    "id": "T-2025-0096",
+    "symbol": "NAS100",
+    "direction": "LONG",
+    "openTime": "2025-08-07T01:10:17Z",
+    "closeTime": "2025-08-07T08:11:17Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 18855.8,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-07T01:10:17Z",
+        "sl": 18755.8,
+        "tp": 19055.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-07T01:21:17Z",
+        "sl": 18745.8,
+        "tp": 19065.8,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-07T02:45:17Z",
+        "sl": 18735.8,
+        "tp": 19055.8,
+        "source": "algo:trailing"
+      },
+      {
+        "time": "2025-08-07T01:59:17Z",
+        "sl": 18745.8,
+        "tp": 19045.8,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 776.63
+  },
+  {
+    "id": "T-2025-0097",
+    "symbol": "US500",
+    "direction": "LONG",
+    "openTime": "2025-07-03T04:50:18Z",
+    "closeTime": "2025-07-03T08:38:18Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 5184.5,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-03T04:50:18Z",
+        "sl": 5084.5,
+        "tp": 5384.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-03T06:10:18Z",
+        "sl": 5094.5,
+        "tp": 5374.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-03T06:46:18Z",
+        "sl": 5084.5,
+        "tp": 5364.5,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-03T06:07:18Z",
+        "sl": 5094.5,
+        "tp": 5374.5,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": -154.96
+  },
+  {
+    "id": "T-2025-0098",
+    "symbol": "XAUUSD",
+    "direction": "LONG",
+    "openTime": "2025-09-06T08:13:24Z",
+    "closeTime": "2025-09-06T13:42:24Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 2404.51,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-06T08:13:24Z",
+        "sl": 2379.51,
+        "tp": 2454.51,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-09-06T08:55:24Z",
+        "sl": 2377.51,
+        "tp": 2456.51,
+        "source": "auto:breakeven"
+      },
+      {
+        "time": "2025-09-06T09:01:24Z",
+        "sl": 2375.51,
+        "tp": 2458.51,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-06T08:14:24Z",
+        "entryPrice": 2402.22,
+        "positionSize": 323,
+        "sl": 2377.22,
+        "tp": 2452.22,
+        "sltpEvents": [
+          {
+            "time": "2025-09-06T08:14:24Z",
+            "sl": 2377.22,
+            "tp": 2452.22,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 16.49
+  },
+  {
+    "id": "T-2025-0099",
+    "symbol": "UK100",
+    "direction": "SHORT",
+    "openTime": "2025-08-18T10:44:55Z",
+    "closeTime": "2025-08-18T11:29:55Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 8323.3,
+      "positionSize": 5000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-08-18T10:44:55Z",
+        "sl": 8223.3,
+        "tp": 8523.3,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-08-18T10:56:55Z",
+        "sl": 8233.3,
+        "tp": 8513.3,
+        "source": "manual:adjust"
+      },
+      {
+        "time": "2025-08-18T12:29:55Z",
+        "sl": 8223.3,
+        "tp": 8523.3,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [],
+    "netEur": 32.87
+  },
+  {
+    "id": "T-2025-0100",
+    "symbol": "XAUUSD",
+    "direction": "LONG",
+    "openTime": "2025-07-18T19:21:29Z",
+    "closeTime": "2025-07-18T20:08:29Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 2420.38,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-18T19:21:29Z",
+        "sl": 2395.38,
+        "tp": 2470.38,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-18T20:48:29Z",
+        "sl": 2393.38,
+        "tp": 2468.38,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-18T20:53:29Z",
+        "sl": 2391.38,
+        "tp": 2466.38,
+        "source": "manual:adjust"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-18T19:55:29Z",
+        "entryPrice": 2420.55,
+        "positionSize": 793,
+        "sl": 2395.55,
+        "tp": 2470.55,
+        "sltpEvents": [
+          {
+            "time": "2025-07-18T19:55:29Z",
+            "sl": 2395.55,
+            "tp": 2470.55,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-18T20:18:29Z",
+            "sl": 2397.55,
+            "tp": 2468.55,
+            "source": "algo:trailing"
+          },
+          {
+            "time": "2025-07-18T21:30:29Z",
+            "sl": 2395.55,
+            "tp": 2466.55,
+            "source": "algo:trailing"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-18T20:13:29Z",
+        "entryPrice": 2419.7,
+        "positionSize": 614,
+        "sl": 2394.7,
+        "tp": 2469.7,
+        "sltpEvents": [
+          {
+            "time": "2025-07-18T20:13:29Z",
+            "sl": 2394.7,
+            "tp": 2469.7,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-18T21:46:29Z",
+            "sl": 2392.7,
+            "tp": 2471.7,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-07-18T21:20:29Z",
+            "sl": 2394.7,
+            "tp": 2469.7,
+            "source": "auto:breakeven"
+          }
+        ]
+      }
+    ],
+    "netEur": -240.18
+  },
+  {
+    "id": "T-2025-0101",
+    "symbol": "US30",
+    "direction": "LONG",
+    "openTime": "2025-09-08T03:17:45Z",
+    "closeTime": "2025-09-08T03:21:45Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 38644.3,
+      "positionSize": 10000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-09-08T03:17:45Z",
+        "sl": 38544.3,
+        "tp": 38844.3,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-09-08T04:16:45Z",
+        "entryPrice": 38590.2,
+        "positionSize": 8586,
+        "sl": 38490.2,
+        "tp": 38790.2,
+        "sltpEvents": [
+          {
+            "time": "2025-09-08T04:16:45Z",
+            "sl": 38490.2,
+            "tp": 38790.2,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-09-08T03:53:45Z",
+        "entryPrice": 38691.2,
+        "positionSize": 7284,
+        "sl": 38591.2,
+        "tp": 38891.2,
+        "sltpEvents": [
+          {
+            "time": "2025-09-08T03:53:45Z",
+            "sl": 38591.2,
+            "tp": 38891.2,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-08T04:23:45Z",
+            "sl": 38601.2,
+            "tp": 38881.2,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-09-08T05:52:45Z",
+            "sl": 38611.2,
+            "tp": 38891.2,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-09-08T05:08:45Z",
+            "sl": 38621.2,
+            "tp": 38881.2,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 1272.85
+  },
+  {
+    "id": "T-2025-0102",
+    "symbol": "GBPUSD",
+    "direction": "SHORT",
+    "openTime": "2025-07-31T15:57:23Z",
+    "closeTime": "2025-07-31T18:47:23Z",
+    "technical": {
+      "orderType": "Limit",
+      "entryPrice": 1.27471,
+      "positionSize": 30000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-31T15:57:23Z",
+        "sl": 1.27171,
+        "tp": 1.28071,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-31T16:36:23Z",
+        "sl": 1.27221,
+        "tp": 1.28021,
+        "source": "auto:breakeven"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-07-31T16:47:23Z",
+        "entryPrice": 1.27577,
+        "positionSize": 22184,
+        "sl": 1.27277,
+        "tp": 1.28177,
+        "sltpEvents": [
+          {
+            "time": "2025-07-31T16:47:23Z",
+            "sl": 1.27277,
+            "tp": 1.28177,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-07-31T17:08:23Z",
+            "sl": 1.27227,
+            "tp": 1.28227,
+            "source": "auto:entry"
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "time": "2025-07-31T16:12:23Z",
+        "entryPrice": 1.27487,
+        "positionSize": 20446,
+        "sl": 1.27187,
+        "tp": 1.28087,
+        "sltpEvents": [
+          {
+            "time": "2025-07-31T16:12:23Z",
+            "sl": 1.27187,
+            "tp": 1.28087,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": -14.03
+  },
+  {
+    "id": "T-2025-0103",
+    "symbol": "FRA40",
+    "direction": "SHORT",
+    "openTime": "2025-07-11T04:16:30Z",
+    "closeTime": "2025-07-11T08:50:30Z",
+    "technical": {
+      "orderType": "Market",
+      "entryPrice": 7673.4,
+      "positionSize": 1000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-07-11T04:16:30Z",
+        "sl": 7573.4,
+        "tp": 7873.4,
+        "source": "auto:entry"
+      },
+      {
+        "time": "2025-07-11T05:49:30Z",
+        "sl": 7583.4,
+        "tp": 7863.4,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [],
+    "netEur": -18.84
+  },
+  {
+    "id": "T-2025-0104",
+    "symbol": "FRA40",
+    "direction": "LONG",
+    "openTime": "2025-06-19T21:25:16Z",
+    "closeTime": "2025-06-20T01:46:16Z",
+    "technical": {
+      "orderType": "Stop",
+      "entryPrice": 7544.3,
+      "positionSize": 2000
+    },
+    "sltpEvents": [
+      {
+        "time": "2025-06-19T21:25:16Z",
+        "sl": 7444.3,
+        "tp": 7744.3,
+        "source": "auto:entry"
+      }
+    ],
+    "addIns": [
+      {
+        "id": "A1",
+        "time": "2025-06-19T21:41:16Z",
+        "entryPrice": 7538.0,
+        "positionSize": 1621,
+        "sl": 7438.0,
+        "tp": 7738.0,
+        "sltpEvents": [
+          {
+            "time": "2025-06-19T21:41:16Z",
+            "sl": 7438.0,
+            "tp": 7738.0,
+            "source": "auto:entry"
+          },
+          {
+            "time": "2025-06-19T23:12:16Z",
+            "sl": 7448.0,
+            "tp": 7748.0,
+            "source": "auto:breakeven"
+          },
+          {
+            "time": "2025-06-19T22:17:16Z",
+            "sl": 7438.0,
+            "tp": 7738.0,
+            "source": "manual:adjust"
+          },
+          {
+            "time": "2025-06-19T22:00:16Z",
+            "sl": 7428.0,
+            "tp": 7728.0,
+            "source": "auto:entry"
+          }
+        ]
+      }
+    ],
+    "netEur": 39.86
+  }
+]

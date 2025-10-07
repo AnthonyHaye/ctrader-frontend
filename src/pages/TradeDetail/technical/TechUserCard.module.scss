@@ -1,0 +1,33 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.card { @include card; }
+.title { @include title-primary; margin-bottom: 8px; }
+
+.block { margin-top: 10px; }
+.blockTitle { @include label-small; margin-bottom: 6px; color: $text-muted; }
+
+.checkboxGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+}
+.check {
+  display:flex; align-items:center; gap:8px;
+  background: $surface-muted; border:1px solid $border; border-radius: 10px; padding: 6px 10px;
+}
+
+.grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
+
+.field { display:grid; gap:4px; }
+.label { @include label-small; }
+.readonly {
+  background: $surface-muted; border:1px solid $border; border-radius: 10px; padding: 8px 10px;
+}
+.input {
+  border:1px solid $border; border-radius: 10px; padding: 8px 10px; font: inherit;
+}
+
+.actions { margin-top: 10px; display:flex; justify-content:flex-end; }
+// .save { @include btn-primary; }

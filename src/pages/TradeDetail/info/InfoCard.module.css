@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* src/styles/_mixins.scss */
+/* Carte de base (fond, radius, ombre, padding) */
+/* Titre principal coloré (h2/h3) */
+/* Grille responsive auto-fit */
+/* Label discret (12px + texte atténué) */
+/* Boîte de champ en lecture seule / info (fond clair + bordure + radius + padding) */
+/* Contrôle de formulaire standard (input/textarea) */
+/* Bouton plein (couleur de fond paramétrable) */
+/* Badge pilule (fond optionnel défini ailleurs) */
+/* Tuile KPI/Stat (fond clair + bordure + radius + padding) */
+/* Conteneur table scrollable (compact) */
+/* Table basique (padding + bordures) */
+/* En-tête sticky (à appliquer dans .table) */
+/* Lignes alternées (tbody) */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 14px;
+}
+
+.title {
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 6px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}/*# sourceMappingURL=InfoCard.module.css.map */

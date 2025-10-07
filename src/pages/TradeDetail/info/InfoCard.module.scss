@@ -1,0 +1,6 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.card  { @include card; }
+.title { @include title-primary; }
+.grid  { @include grid-auto(220px); }
