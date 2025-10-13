@@ -12,17 +12,14 @@ export async function fetchTradeById(id) {
   return all.find(t => t.id === id) || null;
 }
 
-// export function saveTradeEdits(id, patch) {
-//   const edits = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
-//   edits[id] = { ...(edits[id] || {}), ...patch };
-//   localStorage.setItem(LS_KEY, JSON.stringify(edits));
-// }
 
 export function saveTradeEdits(id, patch) {
   // on filtre tout ce qui est technique (API-only)
-  const { technical, sltpEvents, addIns, ...safe } = patch || {};
+  const { technical, sltpEvents, addIns, ...safe } = patch || {};  
+  // Option : on clone pour éviter des références mutables
+  const cloned = JSON.parse(JSON.stringify(safe));
   const edits = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
-  edits[id] = { ...(edits[id] || {}), ...safe };
+  edits[id] = { ...(edits[id] || {}), ...cloned };
   localStorage.setItem(LS_KEY, JSON.stringify(edits));
 }
 

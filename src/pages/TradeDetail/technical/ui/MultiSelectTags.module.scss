@@ -1,0 +1,65 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.wrap { 
+        display:flex; 
+        flex-direction:column; 
+        gap:8px; 
+        margin-top:14px;
+}
+
+/* Important pour les éléments 100% dans une cellule de grid */
+.wrap, .wrap * { box-sizing: border-box; }
+
+.title { font-weight:600; }
+/* Titre (gauche) + select (droite) */
+.headerRow {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 12px;
+}
+.select {
+  width: 260px;
+  max-width: 100%;
+  padding: 8px 10px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 10px;
+}
+@media (max-width: 640px) {
+  .headerRow { grid-template-columns: 1fr; }
+  .select { width: 100%; }
+}       
+
+.tags { 
+        display:flex; 
+        gap:8px; 
+        flex-wrap:wrap; 
+        margin-top:6px;
+}
+
+.tag {
+  display:inline-flex; 
+  align-items:center; 
+  gap:6px;
+  background:#f1f5f9; 
+  color:#0f172a;
+
+  border-radius:999px;
+  padding:4px 10px; 
+  font-size:.9rem;
+  border:1px solid rgba(0,0,0,.06);
+}
+
+.x {
+  border:none; 
+  background:transparent; cursor:pointer; 
+  font-weight:700; 
+  line-height:1;
+}
+
+.hint { 
+        color:#64748b; 
+        font-style:italic; 
+}
+

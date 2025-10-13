@@ -1,0 +1,13 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+@use "sass:color";
+
+.card  { @include card; }
+.title { @include title-primary; }
+.empty { color: $text-muted; }
+
+.table {
+  @include table-plain($padY: $gap, $padX: $card-pad);
+  @include table-alt-rows;
+  thead th { background: color.adjust($surface-muted, $lightness: 2%); }
+}

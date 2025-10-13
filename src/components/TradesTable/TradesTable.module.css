@@ -1,20 +1,65 @@
-.rowBadges {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+@charset "UTF-8";
+/* src/pages/TradesTable/TradesTable.module.scss */
+/* src/styles/_mixins.scss */
+/* Carte de base (fond, radius, ombre, padding) */
+/* Titre principal coloré (h2/h3) */
+/* Grille responsive auto-fit */
+/* Label discret (12px + texte atténué) */
+/* Boîte de champ en lecture seule / info (fond clair + bordure + radius + padding) */
+/* Contrôle de formulaire standard (input/textarea) */
+/* Bouton plein (couleur de fond paramétrable) */
+/* Badge pilule (fond optionnel défini ailleurs) */
+/* Tuile KPI/Stat (fond clair + bordure + radius + padding) */
+/* Conteneur table scrollable (compact) */
+/* Table basique (padding + bordures) */
+/* En-tête sticky (à appliquer dans .table) */
+/* Lignes alternées (tbody) */
+/* Cellule Résumé = 5 colonnes fixes : [sens][kz][durée][issue][pnl] */
+.summary {
+  /* largeurs réglables (tu peux les ajuster finement) */
+  --col-dir: 72px;
+  --col-kz: 120px;
+  --col-dur: 110px;
+  --col-out: 56px;
+  --col-pnl: 120px;
+  display: grid;
+  grid-template-columns: var(--col-dir) var(--col-kz) var(--col-dur) var(--col-out) var(--col-pnl);
+  -moz-column-gap: 7.92px;
+       column-gap: 7.92px;
+  align-items: center; /* centre verticalement chaque badge */
+  line-height: 1; /* évite les décalages */
 }
 
+/* Un slot par badge : garde la place même si vide */
+.slot {
+  min-height: 21.6px; /* ≈ hauteur du chip */
+  display: flex;
+  align-items: center;
+}
+
+/* Chip/badge uniforme, centrage parfait */
 .chip {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 3px 9.6px;
   border-radius: 999px;
   font-weight: 700;
   font-size: 12px;
-  line-height: 18px;
-  color: #fff;
+  color: #ffffff;
+  /* padding / radius / font-size / weight / color */
+  display: inline-flex;
+  align-items: center;
+  height: 21.6px; /* ~22px si $gap=12px */
+  padding: 0 9.6px; /* on contrôle la largeur, pas la hauteur */
+  line-height: 1;
+  font-variant-numeric: tabular-nums; /* chiffres bien alignés */
 }
 
+/* (Optionnel) si tu veux assurer l’alignement vertical de la cellule entière */
+:where(td, th):has(.summary) {
+  vertical-align: middle;
+}
+
+/* Variantes */
 .long {
   background: #4caf50;
 }
@@ -88,5 +133,5 @@
 
 .pnlFlat {
   background: #607d8b;
-  color: #fff;
+  color: #ffffff;
 }/*# sourceMappingURL=TradesTable.module.css.map */

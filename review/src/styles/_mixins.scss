@@ -1,0 +1,121 @@
+/* src/styles/_mixins.scss */
+@use "variables" as *;
+@use "sass:color";
+
+/* Carte de base (fond, radius, ombre, padding) */
+@mixin card {
+  background: $surface;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  padding: $card-pad;
+}
+
+/* Titre principal coloré (h2/h3) */
+@mixin title-primary {
+  font-weight: 700;
+  color: $brand-primary;
+  margin-bottom: calc($gap / 2);
+}
+
+/* Grille responsive auto-fit */
+@mixin grid-auto($min: 200px) {
+  display: grid;
+  gap: $gap;
+  grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+}
+
+/* Label discret (12px + texte atténué) */
+@mixin label-small {
+  font-size: 12px;
+  color: $text-muted;
+}
+
+/* Boîte de champ en lecture seule / info (fond clair + bordure + radius + padding) */
+@mixin field-box {
+  background: $surface-muted;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: calc($gap / 2) $gap;
+}
+
+/* Contrôle de formulaire standard (input/textarea) */
+@mixin form-control {
+  width: 100%;
+  border: 1px solid $border-muted;
+  border-radius: $radius;
+  padding: calc($gap / 2) $gap;
+  font: inherit;
+}
+
+/* Bouton plein (couleur de fond paramétrable) */
+@mixin btn($bg, $hover: null) {
+  background: $bg;
+  color: $surface;
+  border: none;
+  border-radius: $radius;
+  padding: calc($gap / 2) calc($gap * 1.4);
+  cursor: pointer;
+
+  &:hover {
+    background: if($hover != null, $hover, color.adjust($bg, $lightness: -5%));
+  }
+}
+
+/* Badge pilule (fond optionnel défini ailleurs) */
+@mixin badge {
+  display: inline-block;
+  padding: calc($gap / 4) calc($gap * 0.8);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 12px;
+  color: $surface;
+}
+
+/* Tuile KPI/Stat (fond clair + bordure + radius + padding) */
+@mixin stat-tile {
+  background: $surface-muted;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: $card-pad;
+}
+
+/* Conteneur table scrollable (compact) */
+@mixin table-wrap($max_h: 260px) {
+  max-height: $max_h;
+  overflow: auto;
+  border: 1px solid $border;
+  border-radius: $radius;
+}
+
+/* Table basique (padding + bordures) */
+@mixin table-plain($padY: calc($gap / 2), $padX: $gap) {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: $padY $padX;
+    border-bottom: 1px solid $border;
+    text-align: left;
+  }
+}
+
+/* En-tête sticky (à appliquer dans .table) */
+@mixin table-sticky-header {
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+/* Lignes alternées (tbody) */
+@mixin table-alt-rows($row_bg: $surface-muted) {
+  tbody tr:nth-child(even) { background: $row_bg; }
+}
+
+
+@mixin grid($cols:2, $gap:$gap) {
+  display: grid;
+  grid-template-columns: repeat($cols, minmax(0,1fr));
+  gap: $gap;
+}

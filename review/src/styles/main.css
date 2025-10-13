@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* src/styles/_mixins.scss */
+/* Carte de base (fond, radius, ombre, padding) */
+/* Titre principal coloré (h2/h3) */
+/* Grille responsive auto-fit */
+/* Label discret (12px + texte atténué) */
+/* Boîte de champ en lecture seule / info (fond clair + bordure + radius + padding) */
+/* Contrôle de formulaire standard (input/textarea) */
+/* Bouton plein (couleur de fond paramétrable) */
+/* Badge pilule (fond optionnel défini ailleurs) */
+/* Tuile KPI/Stat (fond clair + bordure + radius + padding) */
+/* Conteneur table scrollable (compact) */
+/* Table basique (padding + bordures) */
+/* En-tête sticky (à appliquer dans .table) */
+/* Lignes alternées (tbody) */
+:root {
+  --space: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #2f3237;
+  background: #f6f7fb;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 6px 6px;
+  border-bottom: 1px solid #eef0f4;
+  text-align: left;
+}
+table th {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}/*# sourceMappingURL=main.css.map */

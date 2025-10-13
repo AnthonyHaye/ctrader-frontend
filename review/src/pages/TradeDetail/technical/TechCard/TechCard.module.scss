@@ -1,0 +1,65 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.card { 
+        @include card; 
+}
+
+.title { 
+        font-weight:700; 
+        margin-bottom:12px;
+ }
+
+.grid {
+         @include grid(2); 
+}
+
+.block { 
+        margin-top:16px; 
+}
+
+/* Deux colonnes, même hauteur de ligne, parfait pour SL/TP face à face */
+.gridPairs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .gridPairs { grid-template-columns: 1fr; }
+}
+.contextBlock { margin-top: 12px; 
+                display: grid; 
+                grid-template-columns: 1fr 1fr; 
+                gap: 16px; }
+@media (max-width: 768px) { 
+        .contextBlock { grid-template-columns: 1fr; } 
+}
+.radioGroup {   display:flex; 
+                gap:16px; 
+                flex-wrap:wrap; 
+                align-items:center; }
+
+.radio {        display:flex; 
+                align-items:center; 
+                gap:8px; 
+                white-space:nowrap; }
+
+.badge { display:inline-flex; align-items:center; padding:4px 10px; border-radius:999px; font-weight:600; }
+.badgeOk    { background:#e8faf0; color:#0a7a3b; border:1px solid #b6ebcb; }
+.badgeWarn  { background:#fff4e5; color:#a65c00; border:1px solid #ffd8a8; }
+
+/* --- A+ setup spacing --- */
+.aplusWrap {
+  margin-top: 14px;          /* air au-dessus */
+  padding-top: 8px;          /* option : petite séparation visuelle */
+  border-top: 1px dashed rgba(0,0,0,.08);
+}
+
+/* si tu veux encore un peu d’air sous le toggle */
+.aplusWrap :global(label) {
+  margin-bottom: 8px;
+}

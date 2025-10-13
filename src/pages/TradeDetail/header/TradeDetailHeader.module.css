@@ -146,4 +146,18 @@
 
 .pnlFlat {
   background: #607d8b;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.save {
+  min-width: 180px;
+}
+
+.save:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }/*# sourceMappingURL=TradeDetailHeader.module.css.map */

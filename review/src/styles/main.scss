@@ -1,0 +1,21 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+:root { --space: #{$gap}; }
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: $text;
+  background: $brand-bg;
+  font-size: $font-base;
+}
+
+table {
+  @include table-plain($padY: calc($gap / 2), $padX: calc($gap / 2));
+
+  th {
+    cursor: pointer;
+    user-select: none;
+  }
+}

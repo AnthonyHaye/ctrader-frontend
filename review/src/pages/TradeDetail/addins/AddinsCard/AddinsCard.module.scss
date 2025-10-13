@@ -1,0 +1,66 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.card { 
+        @include card; 
+}
+
+.title { 
+        font-weight:700; 
+        margin-bottom:12px; 
+}
+
+
+.grid { 
+        display:grid; 
+        /* repeat(2, minmax(0, 1fr)) évite les débordements dans les colonnes */
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:16px;
+ }
+
+@media (max-width: 768px) { 
+        .grid { grid-template-columns: 1fr; } 
+}
+
+
+.block { 
+        grid-column: span 1; 
+        min-width: 0;
+}
+
+.field, .fieldWide { 
+        display:flex; 
+        flex-direction:column; 
+        gap:6px; 
+        min-width: 0; 
+}
+.fieldWide { 
+        grid-column: 1 / -1; 
+}
+.label { 
+        color:#64748b; 
+        font-size:.92rem; 
+}
+.input, .textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 10px;
+  box-sizing: border-box;      /* évite de dépasser la colonne */
+}
+.checks { 
+        display:flex; 
+        flex-wrap: wrap; 
+        gap:12px 20px; 
+        align-items:center; 
+        border:0; 
+        padding:0; 
+        margin:0; 
+}
+
+.check { 
+        display:flex; 
+        gap:8px; 
+        align-items:center; 
+}
+

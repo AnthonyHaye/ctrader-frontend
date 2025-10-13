@@ -1,0 +1,69 @@
+// Palette
+$brand-primary:   #1976d2;
+$brand-bg:        #f6f7fb;
+$surface:         #ffffff;
+$surface-muted:   #fafafb;
+
+$border:          #eef0f4;
+$border-contrast: #e7e9ee;   // ex-$border2 si tu en as vraiment besoin
+$border-muted:    #ccc;
+
+$text:            #2f3237;
+$text-muted:      #6b7280;
+// Aliases (optionnels)
+$color-text:      $text;
+$color-muted:     $text-muted;
+
+$success:         #2e7d32;
+$warning:         #ffb300;
+$danger:          #e53935;
+$info:            #0288d1;
+
+// Badges direction
+$long:            #4caf50;
+$short:           #f44336;
+
+// Killzones - Forex
+$kz-asie:         #ffd54f;      // jaune doré
+$kz-londres:      #ff8a65;      // orange doux
+$kz-ny-am:        #6fc2ff;      // bleu clair
+$kz-londres-close:#a1887f;      // brun/gris clair
+// Killzones - Indices
+$kz-ny-pm:        #81c784;      // vert doux
+
+// Durées (badges)
+$dur-scalping:    #9c27b0;      // violet
+$dur-intraday:    #4dabf7;      // bleu clair
+$dur-daytrade:    #ffb74d;
+$dur-swing:       #ff9800;      // orange
+$dur-position:    #795548;      // brun
+
+// PnL
+$pnl-pos:         #2e7d32;      // vert
+$pnl-neg:         #e53935;      // rouge
+$pnl-flat:        #607d8b;      // gris bleuté
+
+// Ombres / arrondis
+$radius:          12px;
+$radius-lg:       14px;         // optionnel
+$shadow:          0 2px 8px rgba(0,0,0,.06);
+
+// Tailles
+$font-base:       15px;
+$font-sm:         13px;
+$gap:             12px;
+$card-pad:        14px;
+
+// Map utile si besoin
+$killzones: (
+  "Asie": $kz-asie,
+  "Londres": $kz-londres,
+  "New York AM": $kz-ny-am,
+  "Londres Close": $kz-londres-close,
+  "New York PM": $kz-ny-pm
+);
+
+// Shorthands de bordures
+$border-thin:        1px solid $border;
+$border-thin-muted:  1px solid $border-muted;
+$border-thick:       2px solid $border;

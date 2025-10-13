@@ -1,0 +1,64 @@
+/* src/pages/TradesTable/TradesTable.module.scss */
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+/* Cellule Résumé = 5 colonnes fixes : [sens][kz][durée][issue][pnl] */
+.summary {
+  /* largeurs réglables (tu peux les ajuster finement) */
+  --col-dir: 72px;
+  --col-kz:  120px;
+  --col-dur: 110px;
+  --col-out: 56px;
+  --col-pnl: 120px;
+
+  display: grid;
+  grid-template-columns: var(--col-dir) var(--col-kz) var(--col-dur) var(--col-out) var(--col-pnl);
+  column-gap: calc($gap * 0.66);
+  align-items: center;   /* centre verticalement chaque badge */
+  line-height: 1;        /* évite les décalages */
+}
+
+/* Un slot par badge : garde la place même si vide */
+.slot {
+  min-height: calc($gap * 1.8);   /* ≈ hauteur du chip */
+  display: flex;
+  align-items: center;
+}
+
+/* Chip/badge uniforme, centrage parfait */
+.chip {
+  @include badge;                 /* padding / radius / font-size / weight / color */
+  display: inline-flex;
+  align-items: center;
+  height: calc($gap * 1.8);       /* ~22px si $gap=12px */
+  padding: 0 calc($gap * 0.8);    /* on contrôle la largeur, pas la hauteur */
+  line-height: 1;
+  font-variant-numeric: tabular-nums; /* chiffres bien alignés */
+}
+
+/* (Optionnel) si tu veux assurer l’alignement vertical de la cellule entière */
+:where(td, th):has(.summary) { vertical-align: middle; }
+
+/* Variantes */
+.long  { background: $long; }
+.short { background: $short; }
+
+.kzAsie         { background: $kz-asie;         color: #0b2a3a; }
+.kzLondres      { background: $kz-londres;      color: #2b2b2b; }
+.kzNyAm         { background: $kz-ny-am; }
+.kzLondresClose { background: $kz-londres-close; }
+.kzNyPm         { background: $kz-ny-pm; }
+
+.dur_scalping { background: $dur-scalping; }
+.dur_intraday { background: $dur-intraday; }
+.dur_daytrade { background: $dur-daytrade; }
+.dur_swing    { background: $dur-swing; }
+
+.TP       { background: $success; }
+.SL       { background: $danger; }
+.SLengain { background: $warning; color:#2b2b2b; }
+.BE       { background: $info; }
+
+.pnlPos  { background: $pnl-pos; }
+.pnlNeg  { background: $pnl-neg; }
+.pnlFlat { background: $pnl-flat; color: $surface; }

@@ -1,0 +1,20 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/form" as *;
+
+.field { 
+        display:flex; 
+        flex-direction:column;
+        gap:6px; }
+
+.label { 
+        color:$color-muted; 
+        font-size:.9rem; 
+}
+
+.control :global(.input) {
+         @extend .input; 
+        }
+
+.readonly { 
+        color:$color-text; 
+        font-weight:500; }

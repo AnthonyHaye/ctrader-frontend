@@ -1,5 +1,6 @@
 /* src/styles/_mixins.scss */
 @use "variables" as *;
+@use "sass:color";
 
 /* Carte de base (fond, radius, ombre, padding) */
 @mixin card {
@@ -56,7 +57,7 @@
   cursor: pointer;
 
   &:hover {
-    background: if($hover != null, $hover, darken($bg, 5%));
+    background: if($hover != null, $hover, color.adjust($bg, $lightness: -5%));
   }
 }
 
@@ -110,4 +111,11 @@
 /* Lignes alternées (tbody) */
 @mixin table-alt-rows($row_bg: $surface-muted) {
   tbody tr:nth-child(even) { background: $row_bg; }
+}
+
+
+@mixin grid($cols:2, $gap:$gap) {
+  display: grid;
+  grid-template-columns: repeat($cols, minmax(0,1fr));
+  gap: $gap;
 }

@@ -1,0 +1,16 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.card  { @include card; }
+.title { @include title-primary; }
+.grid  { @include grid-auto(240px); }
+
+.field { display: grid; gap: calc($gap / 2); }
+.label { @include label-small; }
+
+.control input,
+.control textarea { @include form-control; }
+
+.actions { margin-top: $gap; }
+
+.save { @include btn($long); }

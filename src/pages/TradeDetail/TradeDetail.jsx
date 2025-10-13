@@ -16,7 +16,9 @@ import SltpTimeline from "./technical/SltpTimeline";
 import AddInsTable from "./technical/AddInsTable";
 import PsychForm from "./psych/PsychForm";
 import TechUserCard from "./technical/TechUserCard";
-import TechCard from "./technical/TechCard";
+import TechCard from "./technical/TechCard/TechCard";
+import { AddinsCard } from "./addins";
+
 
 export default function TradeDetail() {
   const { id } = useParams();
@@ -44,9 +46,31 @@ export default function TradeDetail() {
         aplusEnabled: !!t.aplusEnabled,
         aplusTf: t.aplusTf || "",
         aplusIndicators: Array.isArray(t.aplusIndicators) ? t.aplusIndicators : [],
+        slPlacement: Array.isArray(t.slPlacement) ? t.slPlacement : [],
+        slPlacementOther: t.slPlacementOther || "",
+        slPlacementType: t.slPlacementType || "",      // "order_block" | "breaker_block" | "fvg" | "ifvg" | "imbalance" | "gap" | "liquidity_grab" | "other" | ""
+        slPlacementWick: t.slPlacementWick || null,    // "wick" | "body" | null
+        slPlacementNote: t.slPlacementNote || "",      // si "other"        
+        tpPlacementType: t.tpPlacementType || "",
+        tpPlacementWick: t.tpPlacementWick || null,
+        tpPlacementNote: t.tpPlacementNote || "",
+        priceZone: t.priceZone || "",
+        midnightRel: t.midnightRel || "na",
+        addins: t.addins || {
+         catalysts: [],
+         sessions: [],
+         tvLink: "",
+         screenshotBefore: "",
+         screenshotAfter: "",
+         checklist: { respectedPlan:false, respectedRisk:false, emotionOK:false },
+         notes: ""
+       },
+        
       });      
       setDirty(false);
     });
+    
+
   }, [id, navigate]);
 
   const mergeForm = (patch) => {
@@ -76,9 +100,20 @@ export default function TradeDetail() {
 
         aplusEnabled: form.aplusEnabled,
         aplusTf: form.aplusTf,
-        aplusIndicators: form.aplusIndicators,
+        aplusIndicators: form.aplusIndicators,        
+        slPlacement: form.slPlacement,
+        slPlacementOther: form.slPlacementOther,
+        slPlacementType: form.slPlacementType || "",
+        slPlacementWick: form.slPlacementWick || null,
+        slPlacementNote: form.slPlacementNote || "",        
+        tpPlacementType: form.tpPlacementType || "",
+        tpPlacementWick: form.tpPlacementWick || null,
+        tpPlacementNote: form.tpPlacementNote || "",
+        priceZone: form.priceZone || "",
+        midnightRel: form.midnightRel || "na",
+        addins: form.addins,
       });
-      setTrade({ ...trade, ...form });
+      setTrade({ ...trade, ...form, addIns: form.addins });
       setDirty(false);
     } finally {
       setSaving(false);
@@ -128,12 +163,25 @@ return (
             indicators: form.indicators,
             aplusEnabled: form.aplusEnabled,
             aplusTf: form.aplusTf,
-            aplusIndicators: form.aplusIndicators,
+            aplusIndicators: form.aplusIndicators,            
+            slPlacement: form.slPlacement,
+            slPlacementOther: form.slPlacementOther,
+            slPlacementType: form.slPlacementType,
+            slPlacementWick: form.slPlacementWick,
+            slPlacementNote: form.slPlacementNote,
+            tpPlacementType: form.tpPlacementType,
+            tpPlacementWick: form.tpPlacementWick,
+            tpPlacementNote: form.tpPlacementNote,
+            priceZone: form.priceZone,
+            midnightRel: form.midnightRel,
           }}
           onChange={mergeForm}   
-        />
+        /> 
 
-      
+        <AddinsCard
+          value={form.addins}
+          onChange={(next) => mergeForm({ addins: next })}
+        />
 
       {/* Colonne 3 : Add-ins */}
       <AddInsTable
