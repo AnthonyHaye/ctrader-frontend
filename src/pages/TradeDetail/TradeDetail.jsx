@@ -86,8 +86,7 @@ export default function TradeDetail() {
     if (!trade || !form) return;
     try {
       setSaving(true);
-      // On persiste seulement les champs éditables côté front
-      await saveTradeEdits(trade.id, {
+      const saved = await saveTradeEdits(trade.id, {
         emotions: form.emotions,
         respectedPlan: form.respectedPlan,
         error: form.error,
@@ -113,7 +112,8 @@ export default function TradeDetail() {
         midnightRel: form.midnightRel || "na",
         addins: form.addins,
       });
-      setTrade({ ...trade, ...form, addIns: form.addins });
+          // rafraîchis l'affichage local sans re-fetch
+      if (saved) setTrade((prev) => ({ ...(prev || {}), ...saved }));
       setDirty(false);
     } finally {
       setSaving(false);
